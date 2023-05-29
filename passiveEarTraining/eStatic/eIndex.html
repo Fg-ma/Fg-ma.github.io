@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passive Ear Training</title>
+    <link rel="stylesheet" href="ecss/eStyles.css">
+    <link rel="stylesheet" href="ecss/eControlButtons.css">
+    <link rel="stylesheet" href="ecss/eInputs.css">
+    <link rel="stylesheet" href="ecss/eNavbar.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <p id="title">Passive Ear Training</p>
+        <div id="navbar-right">
+            <a class="active" href="/index.php">Home</a>
+            <a href="#contact">Contact</a>
+            <a id="aboutButton" href="#about">About</a>
+            <input type="checkbox" name="un-mute" id="un-mute" onchange="mute()">
+            <label for="un-mute" class="unmute">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Mute_Icon.svg" alt="Mute_Icon.svg" title="Mute icon">
+            </label>
+            <label for="un-mute" class="mute">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg" alt="Speaker_Icon.svg" title="Unmute/speaker icon">
+            </label>
+            <div class="volume">
+                <input type="range" id="vol" min="0" max="100" onchange="volume(this.value)" oninput="volume(this.value)">
+            </div>
+        </div>
+    </div>
+    <p id="difficultyLevel">Select a difficulty level:</p>
+    <div id="difficultyButtons">
+        <button id="easyButton" type="checkbox" onclick="easyFunction()">Easy</button>
+        <button id="mediumButton" type="checkbox" onclick="mediumFunction()">Medium</button>
+        <button id="hardButton" type="checkbox" onclick="hardFunction()">Hard</button>
+    </div>
+    <br>
+    <div class="numTimesRepeat">
+        <input type="number" placeholder="Number of times repeated in each key:" id="timesToRepeat" />
+    </div>
+    <div class="voiceSelector">
+        <select id="voiceSelectionDrop">
+            <option value="Select a voice" disabled selected hidden>Select a voice</option>
+        </select>
+    </div>
+    <canvas id="noteVisualizer"></canvas>
+    <div id="controlButtons" class="controlButtons">
+        <button id="backButton">Back</button>
+        <button id="stopButton">Stop</button>
+        <button id="startButton">Start</button>
+        <button id="loopButton">Loop</button>
+        <button id="nextButton">Next</button>
+    </div>
+    <audio id="audioBlock" controls src="">
+    </audio>
+    <script src="ejs/eServer.js"></script>
+    <script src="ejs/eVolume.js"></script>
+    <script src="ejs/eDifficultyLevels.js"></script>
+    <script src="ejs/eTimingFunctions.js"></script>
+    <script src="ejs/eLogic.js"></script>
+    <script src="ejs/eControlButtons.js"></script>
+    <script src="ejs/eVoices.js"></script>
+    <script src="ejs/eCFunctions/eC0.js"></script>
+    <script src="ejs/eCFunctions/eC1.js"></script>
+    <script src="ejs/eCFunctions/eC2.js"></script>
+    <script src="ejs/eCFunctions/eC3.js"></script>
+    <script src="ejs/eCFunctions/eC4.js"></script>
+    <script src="ejs/eCFunctions/eC5.js"></script>
+    <script src="ejs/eCFunctions/eC6.js"></script>
+    <script src="ejs/eCFunctions/eCFunctions.js"></script>
+</body>
+
+</html>
