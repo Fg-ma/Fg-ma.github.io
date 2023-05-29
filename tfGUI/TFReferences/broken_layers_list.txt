@@ -1,0 +1,34 @@
+Discretization layer -  num_bins - adapt function
+                     - bin_boundaries - input
+Attention layer - causal - wierd
+                - dropout - wierd
+AdditiveAttention - causal - wierd
+                  - dropout - wierd
+Input - type_spec - data type?
+Lambda - mask - data type?
+Bidirectional - weights - data type?
+Dropout - noise_shape - data type?
+AlphaDropout - noise_shape - data type?
+
+probably done/working
+TF15
+TF25
+TF16
+TF26
+TF17
+TF27
+TF18
+TF28
+
+dropdown5
+dropdown6
+dropdown7
+dropdown8
+dropdown9
+dropdown10
+dropdown11
+dropdown12
+dropdown13
+dropdown14
+
+numEntryElement5

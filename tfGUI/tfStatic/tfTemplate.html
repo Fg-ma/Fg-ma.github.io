@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <style>
+        p {
+            padding-left: 1%;
+            font-size: 25px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <p>TF1</p>
+    <br>
+    <p>
+        labelTF1.innerHTML = '';<br>
+        var labelElement11 = document.createElement("label");<br>
+        labelElement11.id = "TF11";<br>
+        labelElement11.innerHTML = "True";<br>
+        labelElement11.style.padding = "10px";<br>
+        TF1.appendChild(labelElement11);<br>
+        var inputElement11 = document.createElement("input");<br>
+        inputElement11.type = 'checkbox';<br>
+        inputElement11.style.padding = "10px";<br>
+        TF1.appendChild(inputElement11);<br>
+        var labelElement21 = document.createElement("label");<br>
+        labelElement21.id = "TF21";<br>
+        labelElement21.innerHTML = "False";<br>
+        labelElement21.style.padding = "10px";<br>
+        TF1.appendChild(labelElement21);<br>
+        var inputElement21 = document.createElement("input");<br>
+        inputElement21.type = 'checkbox';<br>
+        inputElement21.style.padding = "10px";<br>
+        TF1.appendChild(inputElement21);<br>
+    </p>
+    <br>
+    <p>TF2</p>
+    <br>
+    <p>
+        labelTF2.innerHTML = '';<br>
+        var labelElement12 = document.createElement("label");<br>
+        labelElement12.id = "TF12";<br>
+        labelElement12.innerHTML = "True";<br>
+        labelElement12.style.padding = "10px";<br>
+        TF2.appendChild(labelElement12);<br>
+        var inputElement12 = document.createElement("input");<br>
+        inputElement12.type = 'checkbox';<br>
+        inputElement12.style.padding = "10px";<br>
+        TF2.appendChild(inputElement12);<br>
+        var labelElement22 = document.createElement("label");<br>
+        labelElement22.id = "TF22";<br>
+        labelElement22.innerHTML = "False";<br>
+        labelElement22.style.padding = "10px";<br>
+        TF2.appendChild(labelElement22);<br>
+        var inputElement22 = document.createElement("input");<br>
+        inputElement22.type = 'checkbox';<br>
+        inputElement22.style.padding = "10px";<br>
+        TF2.appendChild(inputElement22);<br>
+    </p>
+    <br>
+    <p>TF3</p>
+    <br>
+    <p>
+        labelTF3.innerHTML = '';<br>
+        var labelElement13 = document.createElement("label");<br>
+        labelElement13.id = "TF13";<br>
+        labelElement13.innerHTML = "True";<br>
+        labelElement13.style.padding = "10px";<br>
+        TF3.appendChild(labelElement13);<br>
+        var inputElement13 = document.createElement("input");<br>
+        inputElement13.type = 'checkbox';<br>
+        inputElement13.style.padding = "10px";<br>
+        TF3.appendChild(inputElement13);<br>
+        var labelElement23 = document.createElement("label");<br>
+        labelElement23.id = "TF23";<br>
+        labelElement23.innerHTML = "False";<br>
+        labelElement23.style.padding = "10px";<br>
+        TF3.appendChild(labelElement23);<br>
+        var inputElement23 = document.createElement("input");<br>
+        inputElement23.type = 'checkbox';<br>
+        inputElement23.style.padding = "10px";<br>
+        TF3.appendChild(inputElement23);<br>
+    </p>
+    <br>
+    <p>TF4</p>
+    <br>
+    <p>
+        labelTF4.innerHTML = '';<br>
+        var labelElement14 = document.createElement("label");<br>
+        labelElement14.id = "TF14";<br>
+        labelElement14.innerHTML = "True";<br>
+        labelElement14.style.padding = "10px";<br>
+        TF4.appendChild(labelElement14);<br>
+        var inputElement14 = document.createElement("input");<br>
+        inputElement14.type = 'checkbox';<br>
+        inputElement14.style.padding = "10px";<br>
+        TF4.appendChild(inputElement14);<br>
+        var labelElement24 = document.createElement("label");<br>
+        labelElement24.id = "TF24";<br>
+        labelElement24.innerHTML = "False";<br>
+        labelElement24.style.padding = "10px";<br>
+        TF4.appendChild(labelElement24);<br>
+        var inputElement24 = document.createElement("input");<br>
+        inputElement24.type = 'checkbox';<br>
+        inputElement24.style.padding = "10px";<br>
+        TF4.appendChild(inputElement24);<br>
+    </p>
+    <br>
+    <p>dropdown1</p>
+    <br>
+    <p>
+        var optionsList1 = ["", "", ""];<br>
+        optionsListLength1 = optionsList1.length;<br>
+        <br>
+        labelDropdown1.innerHTML = '';<br>
+        var selectElement1 = document.createElement("select");<br>
+        selectElement1.id = "dropdown1";<br>
+        selectElement1.style.height = "28px";<br>
+        selectElement1.style.width = "100%";<br>
+        selectElement1.style.backgroundColor = "#253f52";<br>
+        selectElement1.style.margin = "0px 0px";<br>
+        <br>
+        for (var i = 0; i < optionsListLength1; i++) {<br>
+            var opt1 = document.createElement('option');<br>
+            opt1.value = optionsList1[i];<br>
+            opt1.innerHTML = optionsList1[i];<br>
+            selectElement11.appendChild(opt1);<br>
+        };<br>
+        <br>
+        dropdown1.appendChild(selectElement1);<br>
+    </p>
+    <br>
+    <p>dropdown2</p>
+    <br>
+    <p>
+        var optionsList2 = ["", "", ""];<br>
+        optionsListLength2 = optionsList2.length;<br>
+        <br>
+        labelDropdown2.innerHTML = '';<br>
+        var selectElement2 = document.createElement("select");<br>
+        selectElement2.id = "dropdown2";<br>
+        selectElement2.style.height = "28px";<br>
+        selectElement2.style.width = "100%";<br>
+        selectElement2.style.backgroundColor = "#253f52";<br>
+        selectElement2.style.margin = "0px 0px";<br>
+        <br>
+        for (var i = 0; i < optionsListLength2; i++) {<br>
+            var opt2 = document.createElement('option');<br>
+            opt2.value = optionsList2[i];<br>
+            opt2.innerHTML = optionsList2[i];<br>
+            selectElement2.appendChild(opt2);<br>
+        };<br>
+        <br>
+        dropdown2.appendChild(selectElement2);<br>
+    </p>
+    <br>
+    <p>dropdown3</p>
+    <br>
+    <p>
+        var optionsList3 = ["", "", ""];<br>
+        optionsListLength3 = optionsList3.length;<br>
+        <br>
+        labelDropdown3.innerHTML = '';<br>
+        var selectElement3 = document.createElement("select");<br>
+        selectElement3.id = "dropdown3";<br>
+        selectElement3.style.height = "28px";<br>
+        selectElement3.style.width = "100%";<br>
+        selectElement3.style.backgroundColor = "#253f52";<br>
+        selectElement3.style.margin = "0px 0px";<br>
+        <br>
+        for (var i = 0; i < optionsListLength3; i++) {<br>
+            var opt3 = document.createElement('option');<br>
+            opt3.value = optionsList3[i];<br>
+            opt3.innerHTML = optionsList3[i];<br>
+            selectElement3.appendChild(opt3);<br>
+        };<br>
+        <br>
+        dropdown3.appendChild(selectElement3);<br>
+    </p>
+    <br>
+    <p>dropdown4</p>
+    <br>
+    <p>
+        var optionsList4 = ["", "", ""];<br>
+        optionsListLength4 = optionsList4.length;<br>
+        <br>
+        labelDropdown4.innerHTML = '';<br>
+        var selectElement4 = document.createElement("select");<br>
+        selectElement4.id = "dropdown4";<br>
+        selectElement4.style.height = "28px";<br>
+        selectElement4.style.width = "100%";<br>
+        selectElement4.style.backgroundColor = "#253f52";<br>
+        selectElement4.style.margin = "0px 0px";<br>
+        <br>
+        for (var i = 0; i < optionsListLength1; i++) {<br>
+            var opt4 = document.createElement('option');<br>
+            opt4.value = optionsList4[i];<br>
+            opt4.innerHTML = optionsList4[i];<br>
+            selectElement4.appendChild(opt4);<br>
+        };<br>
+        <br>
+        dropdown4.appendChild(selectElement4);<br>
+    </p>
+    <br>
+    <p>textEntry1</p>
+    <br>
+    <p>
+        labelTextEntry1.innerHTML = "";<br>
+        var textEntryElement1 = document.createElement("input");<br>
+        textEntryElement1.id = "textEntry1";<br>
+        textEntryElement1.type = "text";<br>
+        textEntryElement1.style.height = "22px";<br>
+        textEntryElement1.style.width = "98.5%";<br>
+        textEntryElement1.style.backgroundColor = "#253f52";<br>
+        textEntryElement1.style.margin = "0px 0px";<br>
+        textEntry1.appendChild(textEntryElement1);<br>
+    </p>
+    <br>
+    <p>textEntry2</p>
+    <br>
+    <p>
+        labelTextEntry2.innerHTML = "";<br>
+        var textEntryElement2 = document.createElement("input");<br>
+        textEntryElement2.id = "textEntry2";<br>
+        textEntryElement2.type = "text";<br>
+        textEntryElement2.style.height = "22px";<br>
+        textEntryElement2.style.width = "98.5%";<br>
+        textEntryElement2.style.backgroundColor = "#253f52";<br>
+        textEntryElement2.style.margin = "0px 0px";<br>
+        textEntry2.appendChild(textEntryElement2);<br>
+    </p>
+    <br>
+    <p>textEntry3</p>
+    <br>
+    <p>
+        labelTextEntry3.innerHTML = "";<br>
+        var textEntryElement3 = document.createElement("input");<br>
+        textEntryElement3.id = "textEntry3";<br>
+        textEntryElement3.type = "text";<br>
+        textEntryElement3.style.height = "22px";<br>
+        textEntryElement3.style.width = "98.5%";<br>
+        textEntryElement3.style.backgroundColor = "#253f52";<br>
+        textEntryElement3.style.margin = "0px 0px";<br>
+        textEntry3.appendChild(textEntryElement3);<br>
+    </p>
+    <br>
+    <p>textEntry4</p>
+    <br>
+    <p>
+        labelTextEntry4.innerHTML = "";<br>
+        var textEntryElement4 = document.createElement("input");<br>
+        textEntryElement4.id = "textEntry4";<br>
+        textEntryElement4.type = "text";<br>
+        textEntryElement4.style.height = "22px";<br>
+        textEntryElement4.style.width = "98.5%";<br>
+        textEntryElement4.style.backgroundColor = "#253f52";<br>
+        textEntryElement4.style.margin = "0px 0px";<br>
+        textEntry4.appendChild(textEntryElement4);<br>
+    </p>
+    <br>
+    <p>numEntry1</p>
+    <br>
+    <p>
+        labelNumEntry1.innerHTML = "";<br>
+        var numEntryElement1 = document.createElement("input");<br>
+        numEntryElement1.id = "numEntry1";<br>
+        numEntryElement1.type = "number";<br>
+        numEntryElement1.style.height = "22px";<br>
+        numEntryElement1.style.width = "98.5%";<br>
+        numEntryElement1.style.backgroundColor = "#253f52";<br>
+        numEntryElement1.style.margin = "0px 0px";<br>
+        numEntry1.appendChild(numEntryElement1);<br>
+    </p>
+    <br>
+    <p>numEntry2</p>
+    <br>
+    <p>
+        labelNumEntry2.innerHTML = "";<br>
+        var numEntryElement2 = document.createElement("input");<br>
+        numEntryElement2.id = "numEntry2";<br>
+        numEntryElement2.type = "number";<br>
+        numEntryElement2.style.height = "22px";<br>
+        numEntryElement2.style.width = "98.5%";<br>
+        numEntryElement2.style.backgroundColor = "#253f52";<br>
+        numEntryElement2.style.margin = "0px 0px";<br>
+        numEntry2.appendChild(numEntryElement2);<br>
+    </p>
+    <br>
+    <p>numEntry3</p>
+    <br>
+    <p>
+        labelNumEntry3.innerHTML = "";<br>
+        var numEntryElement3 = document.createElement("input");<br>
+        numEntryElement3.id = "numEntry3";<br>
+        numEntryElement3.type = "number";<br>
+        numEntryElement3.style.height = "22px";<br>
+        numEntryElement3.style.width = "98.5%";<br>
+        numEntryElement3.style.backgroundColor = "#253f52";<br>
+        numEntryElement3.style.margin = "0px 0px";<br>
+        numEntry3.appendChild(numEntryElement3);<br>
+    </p>
+    <br>
+    <p>numEntry4</p>
+    <br>
+    <p>
+        labelNumEntry4.innerHTML = "";<br>
+        var numEntryElement4 = document.createElement("input");<br>
+        numEntryElement4.id = "numEntry4";<br>
+        numEntryElement4.type = "number";<br>
+        numEntryElement4.style.height = "22px";<br>
+        numEntryElement4.style.width = "98.5%";<br>
+        numEntryElement4.style.backgroundColor = "#253f52";<br>
+        numEntryElement4.style.margin = "0px 0px";<br>
+        numEntry4.appendChild(numEntryElement4);<br>
+    </p>
+    <br>
+    <p>slider1</p>
+    <br>
+    <p>
+        labelSlider1.innerHTML = "";<br>
+        var sliderElement1 = document.createElement("input");<br>
+        sliderElement1.id = "slider1";<br>
+        sliderElement1.type = "range";<br>
+        sliderElement1.min = "0.0";<br>
+        sliderElement1.max = "1.0";<br>
+        sliderElement1.step = "0.01";<br>
+        sliderElement1.style.width = "96%";<br>
+        sliderElement1.style.backgroundColor = "#253f52";<br>
+        sliderElement1.style.margin = "1.75% 2%";<br>
+        slider1.appendChild(sliderElement1);<br>
+    </p>
+    <br>
+    <p>slider2</p>
+    <br>
+    <p>
+        labelSlider2.innerHTML = "";<br>
+        var sliderElement2 = document.createElement("input");<br>
+        sliderElement2.id = "slider2";<br>
+        sliderElement2.type = "range";<br>
+        sliderElement2.min = "0.0";<br>
+        sliderElement2.max = "1.0";<br>
+        sliderElement2.step = "0.01";<br>
+        sliderElement2.style.width = "96%";<br>
+        sliderElement2.style.backgroundColor = "#253f52";<br>
+        sliderElement2.style.margin = "1.75% 2%";<br>
+        slider2.appendChild(sliderElement2);<br>
+    </p>
+    <br>
+    <p>slider3</p>
+    <br>
+    <p>
+        labelSlider3.innerHTML = "";<br>
+        var sliderElement3 = document.createElement("input");<br>
+        sliderElement3.id = "slider3";<br>
+        sliderElement3.type = "range";<br>
+        sliderElement3.min = "0.0";<br>
+        sliderElement3.max = "1.0";<br>
+        sliderElement3.step = "0.01";<br>
+        sliderElement3.style.width = "96%";<br>
+        sliderElement3.style.backgroundColor = "#253f52";<br>
+        sliderElement3.style.margin = "1.75% 2%";<br>
+        slider3.appendChild(sliderElement3);<br>
+    </p>
+    <br>
+    <p>slider4</p>
+    <br>
+    <p>
+        labelSlider4.innerHTML = "";<br>
+        var sliderElement4 = document.createElement("input");<br>
+        sliderElement4.id = "slider4";<br>
+        sliderElement4.type = "range";<br>
+        sliderElement4.min = "0.0";<br>
+        sliderElement4.max = "1.0";<br>
+        sliderElement4.step = "0.01";<br>
+        sliderElement4.style.width = "96%";<br>
+        sliderElement4.style.backgroundColor = "#253f52";<br>
+        sliderElement4.style.margin = "1.75% 2%";<br>
+        slider4.appendChild(sliderElement4);<br>
+    </p>
+    <br>
+    <p>tuple1</p>
+    <br>
+    <p>
+        labelMultiNumEntry1.innerHTML = "";<br>
+        var tupleGridDiv11 = document.createElement("div");<br>
+        tupleGridDiv11.style.gridColumn = "1 / 4";<br>
+        tupleGridDiv11.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement11 = document.createElement("input");<br>
+        multiNumEntryElement11.id = "multiNumEntry11";<br>
+        multiNumEntryElement11.type = "number";<br>
+        multiNumEntryElement11.style.height = "22px";<br>
+        multiNumEntryElement11.style.width = "96%";<br>
+        multiNumEntryElement11.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement11.style.margin = "0px 0px";<br>
+        tupleGridDiv11.appendChild(multiNumEntryElement11);<br>
+        multiNumEntry1.appendChild(tupleGridDiv11);<br>
+        var tupleGridDiv21 = document.createElement("div");<br>
+        tupleGridDiv21.style.gridColumn = "4 / 7";<br>
+        tupleGridDiv21.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement21 = document.createElement("input");<br>
+        multiNumEntryElement21.id = "multiNumEntry21";<br>
+        multiNumEntryElement21.type = "number";<br>
+        multiNumEntryElement21.style.height = "22px";<br>
+        multiNumEntryElement21.style.width = "96%";<br>
+        multiNumEntryElement21.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement21.style.margin = "0px 0px";<br>
+        tupleGridDiv21.appendChild(multiNumEntryElement21);<br>
+        multiNumEntry1.appendChild(tupleGridDiv21);<br>
+    </p>
+    <br>
+    <p>tuple2</p>
+    <br>
+    <p>
+        labelMultiNumEntry2.innerHTML = "";<br>
+        var tupleGridDiv12 = document.createElement("div");<br>
+        tupleGridDiv12.style.gridColumn = "1 / 4";<br>
+        tupleGridDiv12.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement12 = document.createElement("input");<br>
+        multiNumEntryElement12.id = "multiNumEntry12";<br>
+        multiNumEntryElement12.type = "number";<br>
+        multiNumEntryElement12.style.height = "22px";<br>
+        multiNumEntryElement12.style.width = "96%";<br>
+        multiNumEntryElement12.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement12.style.margin = "0px 0px";<br>
+        tupleGridDiv12.appendChild(multiNumEntryElement12);<br>
+        multiNumEntry2.appendChild(tupleGridDiv12);<br>
+        var tupleGridDiv22 = document.createElement("div");<br>
+        tupleGridDiv22.style.gridColumn = "4 / 7";<br>
+        tupleGridDiv22.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement22 = document.createElement("input");<br>
+        multiNumEntryElement22.id = "multiNumEntry22";<br>
+        multiNumEntryElement22.type = "number";<br>
+        multiNumEntryElement22.style.height = "22px";<br>
+        multiNumEntryElement22.style.width = "96%";<br>
+        multiNumEntryElement22.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement22.style.margin = "0px 0px";<br>
+        tupleGridDiv22.appendChild(multiNumEntryElement22);<br>
+        multiNumEntry2.appendChild(tupleGridDiv22);<br>
+    </p>
+    <br>
+    <p>tuple3</p>
+    <br>
+    <p>
+        labelMultiNumEntry3.innerHTML = "";<br>
+        var tupleGridDiv13 = document.createElement("div");<br>
+        tupleGridDiv13.style.gridColumn = "1 / 4";<br>
+        tupleGridDiv13.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement13 = document.createElement("input");<br>
+        multiNumEntryElement13.id = "multiNumEntry13";<br>
+        multiNumEntryElement13.type = "number";<br>
+        multiNumEntryElement13.style.height = "22px";<br>
+        multiNumEntryElement13.style.width = "96%";<br>
+        multiNumEntryElement13.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement13.style.margin = "0px 0px";<br>
+        tupleGridDiv13.appendChild(multiNumEntryElement13);<br>
+        multiNumEntry3.appendChild(tupleGridDiv13);<br>
+        var tupleGridDiv23 = document.createElement("div");<br>
+        tupleGridDiv23.style.gridColumn = "4 / 7";<br>
+        tupleGridDiv23.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement23 = document.createElement("input");<br>
+        multiNumEntryElement23.id = "multiNumEntry23";<br>
+        multiNumEntryElement23.type = "number";<br>
+        multiNumEntryElement23.style.height = "22px";<br>
+        multiNumEntryElement23.style.width = "96%";<br>
+        multiNumEntryElement23.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement23.style.margin = "0px 0px";<br>
+        tupleGridDiv23.appendChild(multiNumEntryElement23);<br>
+        multiNumEntry3.appendChild(tupleGridDiv23);<br>
+    </p>
+    <br>
+    <p>tuple4</p>
+    <br>
+    <p>
+        labelMultiNumEntry4.innerHTML = "";<br>
+        var tupleGridDiv14 = document.createElement("div");<br>
+        tupleGridDiv14.style.gridColumn = "1 / 4";<br>
+        tupleGridDiv14.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement14 = document.createElement("input");<br>
+        multiNumEntryElement14.id = "multiNumEntry14";<br>
+        multiNumEntryElement14.type = "number";<br>
+        multiNumEntryElement14.style.height = "22px";<br>
+        multiNumEntryElement14.style.width = "96%";<br>
+        multiNumEntryElement14.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement14.style.margin = "0px 0px";<br>
+        tupleGridDiv14.appendChild(multiNumEntryElement14);<br>
+        multiNumEntry4.appendChild(tupleGridDiv14);<br>
+        var tupleGridDiv24 = document.createElement("div");<br>
+        tupleGridDiv24.style.gridColumn = "4 / 7";<br>
+        tupleGridDiv24.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement24 = document.createElement("input");<br>
+        multiNumEntryElement24.id = "multiNumEntry24";<br>
+        multiNumEntryElement24.type = "number";<br>
+        multiNumEntryElement24.style.height = "22px";<br>
+        multiNumEntryElement24.style.width = "96%";<br>
+        multiNumEntryElement24.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement24.style.margin = "0px 0px";<br>
+        tupleGridDiv24.appendChild(multiNumEntryElement24);<br>
+        multiNumEntry4.appendChild(tupleGridDiv24);<br>
+    </p>
+    <br>
+    <p>triplet1</p>
+    <br>
+    <p>
+        labelMultiNumEntry1.innerHTML = "";<br>
+        var tripletGridDiv11 = document.createElement("div");<br>
+        tripletGridDiv11.style.gridColumn = "1 / 3";<br>
+        tripletGridDiv11.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement11 = document.createElement("input");<br>
+        multiNumEntryElement11.id = "multiNumEntry11";<br>
+        multiNumEntryElement11.type = "number";<br>
+        multiNumEntryElement11.style.height = "22px";<br>
+        multiNumEntryElement11.style.width = "94%";<br>
+        multiNumEntryElement11.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement11.style.margin = "0px 0px";<br>
+        tripletGridDiv11.appendChild(multiNumEntryElement11);<br>
+        multiNumEntry1.appendChild(tripletGridDiv11);<br>
+        var tripletGridDiv21 = document.createElement("div");<br>
+        tripletGridDiv21.style.gridColumn = "3 / 5";<br>
+        tripletGridDiv21.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement21 = document.createElement("input");<br>
+        multiNumEntryElement21.id = "multiNumEntry21";<br>
+        multiNumEntryElement21.type = "number";<br>
+        multiNumEntryElement21.style.height = "22px";<br>
+        multiNumEntryElement21.style.width = "94%";<br>
+        multiNumEntryElement21.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement21.style.margin = "0px 0px";<br>
+        tripletGridDiv21.appendChild(multiNumEntryElement21);<br>
+        multiNumEntry1.appendChild(tripletGridDiv21);<br>
+        var tripletGridDiv31 = document.createElement("div");<br>
+        tripletGridDiv31.style.gridColumn = "5 / 7";<br>
+        tripletGridDiv31.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement31 = document.createElement("input");<br>
+        multiNumEntryElement31.id = "multiNumEntry31";<br>
+        multiNumEntryElement31.type = "number";<br>
+        multiNumEntryElement31.style.height = "22px";<br>
+        multiNumEntryElement31.style.width = "94%";<br>
+        multiNumEntryElement31.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement31.style.margin = "0px 0px";<br>
+        tripletGridDiv31.appendChild(multiNumEntryElement31);<br>
+        multiNumEntry1.appendChild(tripletGridDiv31);<br>
+    </p>
+    <br>
+    <p>triplet2</p>
+    <br>
+    <p>
+        labelMultiNumEntry2.innerHTML = "";<br>
+        var tripletGridDiv12 = document.createElement("div");<br>
+        tripletGridDiv12.style.gridColumn = "1 / 3";<br>
+        tripletGridDiv12.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement12 = document.createElement("input");<br>
+        multiNumEntryElement12.id = "multiNumEntry12";<br>
+        multiNumEntryElement12.type = "number";<br>
+        multiNumEntryElement12.style.height = "22px";<br>
+        multiNumEntryElement12.style.width = "94%";<br>
+        multiNumEntryElement12.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement12.style.margin = "0px 0px";<br>
+        tripletGridDiv12.appendChild(multiNumEntryElement12);<br>
+        multiNumEntry2.appendChild(tripletGridDiv12);<br>
+        var tripletGridDiv22 = document.createElement("div");<br>
+        tripletGridDiv22.style.gridColumn = "3 / 5";<br>
+        tripletGridDiv22.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement22 = document.createElement("input");<br>
+        multiNumEntryElement22.id = "multiNumEntry22";<br>
+        multiNumEntryElement22.type = "number";<br>
+        multiNumEntryElement22.style.height = "22px";<br>
+        multiNumEntryElement22.style.width = "94%";<br>
+        multiNumEntryElement22.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement22.style.margin = "0px 0px";<br>
+        tripletGridDiv22.appendChild(multiNumEntryElement22);<br>
+        multiNumEntry2.appendChild(tripletGridDiv22);<br>
+        var tripletGridDiv32 = document.createElement("div");<br>
+        tripletGridDiv32.style.gridColumn = "5 / 7";<br>
+        tripletGridDiv32.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement32 = document.createElement("input");<br>
+        multiNumEntryElement32.id = "multiNumEntry32";<br>
+        multiNumEntryElement32.type = "number";<br>
+        multiNumEntryElement32.style.height = "22px";<br>
+        multiNumEntryElement32.style.width = "94%";<br>
+        multiNumEntryElement32.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement32.style.margin = "0px 0px";<br>
+        tripletGridDiv32.appendChild(multiNumEntryElement32);<br>
+        multiNumEntry2.appendChild(tripletGridDiv32);<br>
+    </p>
+    <br>
+    <p>triplet3</p>
+    <br>
+    <p>
+        labelMultiNumEntry3.innerHTML = "";<br>
+        var tripletGridDiv13 = document.createElement("div");<br>
+        tripletGridDiv13.style.gridColumn = "1 / 3";<br>
+        tripletGridDiv13.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement13 = document.createElement("input");<br>
+        multiNumEntryElement13.id = "multiNumEntry13";<br>
+        multiNumEntryElement13.type = "number";<br>
+        multiNumEntryElement13.style.height = "22px";<br>
+        multiNumEntryElement13.style.width = "94%";<br>
+        multiNumEntryElement13.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement13.style.margin = "0px 0px";<br>
+        tripletGridDiv13.appendChild(multiNumEntryElement13);<br>
+        multiNumEntry3.appendChild(tripletGridDiv13);<br>
+        var tripletGridDiv23 = document.createElement("div");<br>
+        tripletGridDiv23.style.gridColumn = "3 / 5";<br>
+        tripletGridDiv23.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement23 = document.createElement("input");<br>
+        multiNumEntryElement23.id = "multiNumEntry23";<br>
+        multiNumEntryElement23.type = "number";<br>
+        multiNumEntryElement23.style.height = "22px";<br>
+        multiNumEntryElement23.style.width = "94%";<br>
+        multiNumEntryElement23.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement23.style.margin = "0px 0px";<br>
+        tripletGridDiv23.appendChild(multiNumEntryElement23);<br>
+        multiNumEntry3.appendChild(tripletGridDiv23);<br>
+        var tripletGridDiv33 = document.createElement("div");<br>
+        tripletGridDiv33.style.gridColumn = "5 / 7";<br>
+        tripletGridDiv33.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement33 = document.createElement("input");<br>
+        multiNumEntryElement33.id = "multiNumEntry33";<br>
+        multiNumEntryElement33.type = "number";<br>
+        multiNumEntryElement33.style.height = "22px";<br>
+        multiNumEntryElement33.style.width = "94%";<br>
+        multiNumEntryElement33.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement33.style.margin = "0px 0px";<br>
+        tripletGridDiv33.appendChild(multiNumEntryElement33);<br>
+        multiNumEntry3.appendChild(tripletGridDiv33);<br>
+    </p>
+    <br>
+    <p>triplet4</p>
+    <br>
+    <p>
+        labelMultiNumEntry4.innerHTML = "";<br>
+        var tripletGridDiv14 = document.createElement("div");<br>
+        tripletGridDiv14.style.gridColumn = "1 / 3";<br>
+        tripletGridDiv14.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement14 = document.createElement("input");<br>
+        multiNumEntryElement14.id = "multiNumEntry14";<br>
+        multiNumEntryElement14.type = "number";<br>
+        multiNumEntryElement14.style.height = "22px";<br>
+        multiNumEntryElement14.style.width = "94%";<br>
+        multiNumEntryElement14.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement14.style.margin = "0px 0px";<br>
+        tripletGridDiv14.appendChild(multiNumEntryElement14);<br>
+        multiNumEntry4.appendChild(tripletGridDiv14);<br>
+        var tripletGridDiv24 = document.createElement("div");<br>
+        tripletGridDiv24.style.gridColumn = "3 / 5";<br>
+        tripletGridDiv24.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement24 = document.createElement("input");<br>
+        multiNumEntryElement24.id = "multiNumEntry24";<br>
+        multiNumEntryElement24.type = "number";<br>
+        multiNumEntryElement24.style.height = "22px";<br>
+        multiNumEntryElement24.style.width = "94%";<br>
+        multiNumEntryElement24.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement24.style.margin = "0px 0px";<br>
+        tripletGridDiv24.appendChild(multiNumEntryElement24);<br>
+        multiNumEntry4.appendChild(tripletGridDiv24);<br>
+        var tripletGridDiv34 = document.createElement("div");<br>
+        tripletGridDiv34.style.gridColumn = "5 / 7";<br>
+        tripletGridDiv34.style.gridRow = "1 / 2";<br>
+        var multiNumEntryElement34 = document.createElement("input");<br>
+        multiNumEntryElement34.id = "multiNumEntry34";<br>
+        multiNumEntryElement34.type = "number";<br>
+        multiNumEntryElement34.style.height = "22px";<br>
+        multiNumEntryElement34.style.width = "94%";<br>
+        multiNumEntryElement34.style.backgroundColor = "#253f52";<br>
+        multiNumEntryElement34.style.margin = "0px 0px";<br>
+        tripletGridDiv34.appendChild(multiNumEntryElement34);<br>
+        multiNumEntry4.appendChild(tripletGridDiv34);<br>
+    </p>
+    <br>
+    <p>kwargs1</p>
+    <br>
+    <p>
+        labelkwargs1.innerHTML = "kwargs1";<br>
+        var kwargsElement1 = document.createElement("input");<br>
+        kwargsElement1.id = " kwargs1";<br>
+        kwargsElement1.type = "text";<br>
+        kwargsElement1.style.height = "22px";<br>
+        kwargsElement1.style.width = "98.5%";<br>
+        kwargsElement1.style.backgroundColor = "#253f52";<br>
+        kwargsElement1.style.margin = "0px 0px";<br>
+        kwargs1.appendChild(kwargsElement1);<br>
+    </p>
+    <br>
+    <p>kwargs2</p>
+    <br>
+    <p>
+        labelkwargs2.innerHTML = "kwargs2";<br>
+        var kwargsElement2 = document.createElement("input");<br>
+        kwargsElement2.id = " kwargs2";<br>
+        kwargsElement2.type = "text";<br>
+        kwargsElement2.style.height = "22px";<br>
+        kwargsElement2.style.width = "98.5%";<br>
+        kwargsElement2.style.backgroundColor = "#253f52";<br>
+        kwargsElement2.style.margin = "0px 0px";<br>
+        kwargs2.appendChild(kwargsElement2);<br>
+    </p>
+    <br>
+    <p>kwargs3</p>
+    <br>
+    <p>
+        labelkwargs3.innerHTML = "kwargs3";<br>
+        var kwargsElement3 = document.createElement("input");<br>
+        kwargsElement3.id = " kwargs3";<br>
+        kwargsElement3.type = "text";<br>
+        kwargsElement3.style.height = "22px";<br>
+        kwargsElement3.style.width = "98.5%";<br>
+        kwargsElement3.style.backgroundColor = "#253f52";<br>
+        kwargsElement3.style.margin = "0px 0px";<br>
+        kwargs3.appendChild(kwargsElement3);<br>
+    </p>
+    <br>
+    <p>kwargs4</p>
+    <br>
+    <p>
+        labelkwargs4.innerHTML = "kwargs4";<br>
+        var kwargsElement4 = document.createElement("input");<br>
+        kwargsElement4.id = " kwargs4";<br>
+        kwargsElement4.type = "text";<br>
+        kwargsElement4.style.height = "22px";<br>
+        kwargsElement4.style.width = "98.5%";<br>
+        kwargsElement4.style.backgroundColor = "#253f52";<br>
+        kwargsElement4.style.margin = "0px 0px";<br>
+        kwargs4.appendChild(kwargsElement4);<br>
+    </p>
+</body>
+</html>

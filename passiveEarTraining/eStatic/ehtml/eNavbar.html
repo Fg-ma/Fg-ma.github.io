@@ -1,0 +1,18 @@
+<div id="navbar">
+    <p id="title">Passive Ear Training</p>
+    <div id="navbar-right">
+        <a class="active" href="/index.php">Home</a>
+        <a href="#contact">Contact</a>
+        <a id="aboutButton" href="#about">About</a>
+        <input type="checkbox" name="un-mute" id="un-mute" onchange="mute()">
+        <label for="un-mute" class="unmute">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Mute_Icon.svg" alt="Mute_Icon.svg" title="Mute icon">
+        </label>
+        <label for="un-mute" class="mute">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg" alt="Speaker_Icon.svg" title="Unmute/speaker icon">
+        </label>
+        <div class="volume">
+            <input type="range" id="vol" min="0" max="100" onchange="volume(this.value)" oninput="volume(this.value)">
+        </div>
+    </div>
+</div>

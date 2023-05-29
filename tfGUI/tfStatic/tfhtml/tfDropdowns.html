@@ -1,0 +1,138 @@
+<p id="primaryLayersLabel">Primary Layers</p>
+<select id="primaryDrop">
+    <option value="Select a layer" disabled selected hidden>Select a layer</option>
+    <optgroup label="Core Layers">
+        <option value="Input">Input</option>
+        <option value="Dense">Dense</option>
+        <option value="Activation">Activation</option>
+        <option value="Embedding">Embedding</option>
+        <option value="Masking">Masking</option>
+        <option value="Lambda">Lambda</option>
+    </optgroup>
+    <optgroup label="Convolutional Layers">
+        <option value="Conv1D">Conv1D</option>
+        <option value="Conv2D">Conv2D</option>
+        <option value="Conv3D">Conv3D</option>
+        <option value="SeparableConv1D">SeparableConv1D</option>
+        <option value="SeparableConv2D">SeparableConv2D</option>
+        <option value="DepthwiseConv2D">DepthwiseConv2D</option>
+        <option value="Conv1DTranspose">Conv1DTranspose</option>
+        <option value="Conv2DTranspose">Conv2DTranspose</option>
+        <option value="Conv3DTranspose">Conv3DTranspose</option>
+    </optgroup>
+    <optgroup label="Pooling Layers">
+        <option value="MaxPooling1D">MaxPooling1D</option>
+        <option value="MaxPooling2D">MaxPooling2D</option>
+        <option value="MaxPooling3D">MaxPooling3D</option>
+        <option value="GlobalMaxPooling1D">GlobalMaxPooling1D</option>
+        <option value="GlobalMaxPooling2D">GlobalMaxPooling2D</option>
+        <option value="GlobalMaxPooling3D">GlobalMaxPooling3D</option>
+        <option value="AveragePooling1D">AveragePooling1D</option>
+        <option value="AveragePooling2D">AveragePooling2D</option>
+        <option value="AveragePooling3D">AveragePooling3D</option>
+        <option value="GlobalAveragePooling1D">GlobalAveragePooling1D</option>
+        <option value="GlobalAveragePooling2D">GlobalAveragePooling2D</option>
+        <option value="GlobalAveragePooling3D">GlobalAveragePooling3D</option>
+    </optgroup>
+    <optgroup label="Recurrent Layers">
+        <option value="LSTM">LSTM</option>
+        <option value="GRU">GRU</option>
+        <option value="SimpleRNN">SimpleRNN</option>
+        <option value="TimeDistributed">TimeDistributed</option>
+        <option value="Bidirectional">Bidirectional</option>
+        <option value="ConvLSTM1D">ConvLSTM1D</option>
+        <option value="ConvLSTM2D">ConvLSTM2D</option>
+        <option value="ConvLSTM3D">ConvLSTM3D</option>
+        <option value="Base_RNN">Base_RNN</option>
+    </optgroup>
+    <optgroup label="Regularization Layers">
+        <option value="Dropout">Dropout</option>
+        <option value="SpatialDropout1D">SpatialDropout1D</option>
+        <option value="SpatialDropout2D">SpatialDropout2D</option>
+        <option value="SpatialDropout3D">SpatialDropout3D</option>
+        <option value="GaussianDropout">GaussianDropout</option>
+        <option value="GaussianNoise">GaussianNoise</option>
+        <option value="ActivityRegularization">ActivityRegularization</option>
+        <option value="AlphaDropout">AlphaDropout</option>
+    </optgroup>
+    <optgroup label="Reshaping Layers">
+        <option value="Reshape">Reshape</option>
+        <option value="Flatten">Flatten</option>
+        <option value="RepeatVector">RepeatVector</option>
+        <option value="Permute">Permute</option>
+        <option value="Cropping1D">Cropping1D</option>
+        <option value="Cropping2D">Cropping2D</option>
+        <option value="Cropping3D">Cropping3D</option>
+    </optgroup>
+    <optgroup label="Activation Layers">
+        <option value="ReLU">ReLU</option>
+        <option value="LeakyReLU">LeakyReLU</option>
+        <option value="ThresholdedReLU">ThresholdedReLU</option>
+        <option value="PReLU">PReLU</option>
+        <option value="ELU">ELU</option>
+        <option value="Softmax">Softmax</option>
+    </optgroup>
+</select>
+<button id="enter1">Enter</button>
+<p id="secondaryLayersLabel">Secondary Layers</p>
+<select id="secondaryDrop">
+    <option value="Select a layer" disabled selected hidden>Select a layer</option>
+    <optgroup label="Text Preprocessing Layers">
+        <option value="TextVectorization">TextVectorization</option>
+    </optgroup>
+    <optgroup label="Numerical Features Preprocessing Layers">
+        <option value="Normalization">Normalization</option>
+        <option value="Discretization">Discretization</option>
+    </optgroup>
+    <optgroup label="Categorical Feature Preprocessing Layers">
+        <option value="CategoryEncoding">CategoryEncoding</option>
+        <option value="Hashing">Hashing</option>
+        <option value="StringLookup">StringLookup</option>
+        <option value="IntegerLookup">IntegerLookup</option>
+    </optgroup>
+    <optgroup label="Image Preprocessing Layers">
+        <option value="Resizing">Resizing</option>
+        <option value="Rescaling">Rescaling</option>
+        <option value="CenterCrop">CenterCrop</option>
+    </optgroup>
+    <optgroup label="Image augmentation Layers">
+        <option value="RandomCrop">RandomCrop</option>
+        <option value="RandomFlip">RandomFlip</option>
+        <option value="RandomTranslation">RandomTranslation</option>
+        <option value="RandomRotation">RandomRotation</option>
+        <option value="RandomZoom">RandomZoom</option>
+        <option value="RandomHeight">RandomHeight</option>
+        <option value="RandomWidth">RandomWidth</option>
+        <option value="RandomContrast">RandomContrast</option>
+    </optgroup>
+    <optgroup label="Normalization Layers">
+        <option value="BatchNormalization">BatchNormalization</option>
+        <option value="LayerNormalization">LayerNormalization</option>
+        <option value="UnitNormalization">UnitNormalization</option>
+    </optgroup>
+    <optgroup label="Attention Layers">
+        <option value="MultiHeadAttention">MultiHeadAttention</option>
+        <option value="Attention">Attention</option>
+        <option value="AdditiveAttention">AdditiveAttention</option>
+    </optgroup>
+    <optgroup label="Merging Layers">
+        <option value="Concatenate">Concatenate</option>
+        <option value="Average">Average</option>
+        <option value="Maximum">Maximum</option>
+        <option value="Minimum">Minimum</option>
+        <option value="Add">Add</option>
+        <option value="Subtract">Multiply</option>
+        <option value="Dot">Dot</option>
+        <option value="UpSampling1D">UpSampling1D</option>
+        <option value="UpSampling2D">UpSampling2D</option>
+        <option value="UpSampling3D">UpSampling3D</option>
+        <option value="ZeroPadding1D">ZeroPadding1D</option>
+        <option value="ZeroPadding2D">ZeroPadding2D</option>
+        <option value="ZeroPadding3D">ZeroPadding3D</option>
+    </optgroup>
+    <optgroup label="Locally-Connected Layers">
+        <option value="LocallyConnected1D">LocallyConnected1D</option>
+        <option value="LocallyConnected2D">LocallyConnected2D</option>
+    </optgroup>
+</select>
+<button id="enter2">Enter</button>

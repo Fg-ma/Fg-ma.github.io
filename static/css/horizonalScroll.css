@@ -1,0 +1,136 @@
+#horizontalScroll {
+    padding-top: 130px;
+}
+
+#backwardHorizontalScrollButton {
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    float: left;
+    width: 6%;
+    height: 350px;
+}
+
+#forwardHorizontalScrollButton {
+    margin-top: 5%;
+    margin-left: 2%;
+    float: left;
+    width: 6%;
+    height: 350px;
+}
+
+.backwardHorizontalScroll {
+    border: none;
+    background-color: #F27405;
+    padding: 12px 48px 12px 24px;
+    border-radius: 4px;
+    color: #fff;
+    background-image: url("/static/sourceImages/leftArrow.png");
+    background-repeat: no-repeat;
+    background-position: right 50% center;
+
+}
+
+.backwardHorizontalScroll:hover {
+    border: 2px solid #F5F5F5;
+}
+
+.fowardHorizontalScroll {
+    border: none;
+    background-color: #F27405;
+    padding: 12px 48px 12px 24px;
+    border-radius: 4px;
+    color: #fff;
+    background-image: url("/static/sourceImages/rightArrow.png");
+    background-repeat: no-repeat;
+    background-position: right 50% center;
+  
+}
+
+.fowardHorizontalScroll:hover {
+    border: 2px solid #F5F5F5;
+}
+
+#featuredButtons {
+    float: left;
+}
+
+div.scrollmenu {
+    margin-top: 5%;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+    white-space: nowrap;
+    width: 80%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.scrollmenu::-webkit-scrollbar { 
+    display: none;
+}
+  
+div.scrollmenu a {
+    padding-top: 10px;
+    display: inline-block;
+    margin: .75%;
+    width: 23%;
+    height: 250px;
+    border: 2px solid transparent;
+}
+  
+div.scrollmenu a:hover {
+    border: 20px;
+    border: 2px solid #d0d0d0;
+}
+  
+#firstFeaturedButton {
+    margin-left: 1%;
+    background: url('/static/sourceImages/neuralNetwork.png') no-repeat center;
+    background-size: 100% 250px;
+}
+  
+#secondFeaturedButton {
+    background: url('/static/sourceImages/earTraining.png') no-repeat center;
+    background-size: 100% 250px;
+}
+  
+#thirdFeaturedButton {
+    background: url('/static/sourceImages/neuralNetwork.png') no-repeat center;
+    background-size: 100% 250px;
+}
+  
+#fourthFeaturedButton {
+    background: url('/static/sourceImages/earTraining.png') no-repeat center;
+    background-size: 100% 250px;
+}
+
+#fifthFeaturedButton {
+    background: url('/static/sourceImages/neuralNetwork.png') no-repeat center;
+    background-size: 100% 250px;
+}
+  
+#sixthFeaturedButton {
+    background: url('/static/sourceImages/earTraining.png') no-repeat center;
+    background-size: 100% 250px;
+}
+  
+#seventhFeaturedButton {
+    background: url('/static/sourceImages/neuralNetwork.png') no-repeat center;
+    background-size: 100% 250px;
+}
+  
+#eighthFeaturedButton {
+    background: url('/static/sourceImages/earTraining.png') no-repeat center;
+    background-size: 100% 250px;
+}
+
+#ninthFeaturedButton {
+    background: url('/static/sourceImages/neuralNetwork.png') no-repeat center;
+    background-size: 100% 250px;
+}
+  
+#tenthFeaturedButton {
+    margin-right: 1.25%;
+    background: url('/static/sourceImages/earTraining.png') no-repeat center;
+    background-size: 100% 250px;
+}

@@ -1,0 +1,10 @@
+# template to be used in a TF model creator python file
+
+thing1: value
+thing2: value
+thing3: value
+thing4: None
+thing5: None
+
+# download this file and input into the linked python program on this page
+

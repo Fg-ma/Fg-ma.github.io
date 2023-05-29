@@ -1,0 +1,60 @@
+@font-face {
+  font-family: nexusTitleFont;
+  src: url(/static/sources/ZenDots-Regular.ttf);
+}
+
+@font-face {
+  font-family: bodyFont;
+  src: url(/static/sources/Baloo2-Regular.ttf);
+}
+
+#nexusTitle {
+  font-family: nexusTitleFont;
+}
+
+#canvas3d {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #0c151b;
+    height: 500vh;
+}
+  
+input {
+  margin: 0 auto;
+}
+
+h1 {
+  padding-top: 35px;
+  text-align: center;
+  margin: 0 auto;
+  color: #F5F5F5;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: #F5F5F5;
+  font-size: 300%;
+  font-family: bodyFont;
+}
+
+select {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+form {
+  padding-left: 1%;
+}

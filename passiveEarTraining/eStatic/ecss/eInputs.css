@@ -1,0 +1,132 @@
+#vol {
+    position: absolute;
+    right: -25px;
+    height: 80px;
+    background-color: #0c151b;
+    accent-color: #253f52;
+    appearance: slider-vertical;
+    writing-mode: bt-lr;
+}
+
+input#un-mute {
+    display: none;
+}
+
+.unmute img {
+    display: none;
+    width: 22.5px;
+    position: absolute; 
+    top: 77%;
+    right: 30px;
+}
+
+.mute img {
+    width: 22.5px;
+    position: absolute; 
+    top: 77%;
+    right: 30px;
+}
+
+input#un-mute:checked ~ .unmute img {
+    display: initial;
+}
+
+input#un-mute:checked ~ .mute img {
+    display: none;
+}
+
+#difficultyLevel {
+    padding-top: 115px;
+    padding-left: 1.5%;
+    font-size: 25px;
+    margin: .25% auto;
+    color: #F5F5F5;
+    font-family: bodyFont;
+}
+
+#difficultyButtons {
+    display: flex;
+    justify-content: center;
+}
+
+div#difficultyButtons button {
+    border-radius: 6px;
+    border: 2px solid transparent;
+    font-family: bodyFont;
+    font-size: 30px;
+}
+
+div#difficultyButtons button:hover {
+    border: 2px solid #F5F5F5;
+    font-size: 32px;
+}
+
+div#difficultyButtons button:disabled {
+    border: 2px solid #F5F5F5;
+    background-color: #0c151b;
+    color: #F5F5F5;
+}
+
+#easyButton {
+    margin-left: 1.5%;
+    margin-right: 2%;
+    height: 50px;
+    width: 31%;
+    background-color: #253f52;
+    float: left;
+}
+
+#mediumButton {
+    margin-right: 2%;
+    height: 50px;
+    width: 31%;
+    background-color: #253f52;
+    float: left;
+}
+
+#hardButton {
+    margin-right: 1.5%;
+    height: 50px;
+    width: 31%;
+    background-color: #253f52;
+    float: left;
+}
+
+#timesToRepeat {
+    border-radius: 6px;
+    margin-left: 1.5%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 35px;
+    width: 33.33%;
+    background-color: #253f52;
+    font-family: bodyFont;
+    font-size: 18px;
+}
+
+::placeholder {
+    color: black;
+}
+
+:-ms-input-placeholder {
+    color: black;
+}
+
+div.numTimesRepeat input {
+    border: 2px solid transparent;
+}
+
+div.numTimesRepeat input:hover {
+    border: 2px solid #F5F5F5;
+}
+
+#voiceSelectionDrop {
+    border-radius: 6px;
+    margin-left: 1.5%;
+    margin-top: 10px;
+    font-size: 22px;
+    height: 35px;
+    width: 97%;
+    background-color: #253f52;
+    font-family: bodyFont;
+}
