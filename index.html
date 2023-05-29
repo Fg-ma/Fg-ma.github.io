@@ -12,12 +12,31 @@
 </head>
 
 <body id="container">
-    <?php
-    include "static/html/navbar.html";
-    ?>
-    <?php
-    include "static/html/horizontalScroll.html";
-    ?>
+    <div id="navbar">
+        <a href="#default" id="nexusTitle">Nexus</a>
+        <div id="navbar-right">
+            <a class="active" href="/index.php">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </div>
+    <div id="horizontalScroll">
+        <button class="backwardHorizontalScroll" id="backwardHorizontalScrollButton" type="button"></button>
+        <div id="featuredButtons" class="scrollmenu">
+            <H2 id="featuredTitle">Featured</H2>
+            <a href="..\tfGUI\tfStatic\tfIndex.php" id="firstFeaturedButton"></button></a>
+            <a href="..\passiveEarTraining\eStatic\eIndex.php" id="secondFeaturedButton"></button></a>
+            <a href="..\tfGUI\tfStatic\tfIndex.php" id="thirdFeaturedButton"></a>
+            <a href="..\passiveEarTraining\eStatic\eIndex.php" id="fourthFeaturedButton"></a>
+            <a href="" id="fifthFeaturedButton"></a>
+            <a href="" id="sixthFeaturedButton"></a>
+            <a href="" id="seventhFeaturedButton"></a>
+            <a href="" id="eighthFeaturedButton"></a>
+            <a href="" id="ninthFeaturedButton"></a>
+            <a href="" id="tenthFeaturedButton"></a>
+        </div>
+        <button class="fowardHorizontalScroll" id="forwardHorizontalScrollButton" type="button"></button>
+    </div>
     <br>
     <div class="pageNavBar">
         <div class="sortByContainer">
@@ -36,9 +55,6 @@
             </form>
         </div>
     </div>
-    <?php
-    echo $_GET["search"] ?? null;
-    ?>
     <div id="canvas3d">
 
     </div>
