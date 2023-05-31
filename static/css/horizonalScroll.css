@@ -85,52 +85,21 @@ div.scrollmenu a:hover {
   
 #firstFeaturedButton {
     margin-left: 1%;
-    background: url('/static/sourceImages/neuralNetwork.png') no-repeat center;
+    background-image: url('\\static\\sourceImages\\neuralNetwork.png');
     background-size: 100% 250px;
 }
   
 #secondFeaturedButton {
-    background: url('/static/sourceImages/earTraining.png') no-repeat center;
+    background-image: url('\\static\\sourceImages\\earTraining.png');
     background-size: 100% 250px;
 }
   
 #thirdFeaturedButton {
-    background: url('/static/sourceImages/neuralNetwork.png') no-repeat center;
+    background-image: url('\\static\\sourceImages\\neuralNetwork.png');
     background-size: 100% 250px;
 }
   
 #fourthFeaturedButton {
-    background: url('/static/sourceImages/earTraining.png') no-repeat center;
-    background-size: 100% 250px;
-}
-
-#fifthFeaturedButton {
-    background: url('/static/sourceImages/neuralNetwork.png') no-repeat center;
-    background-size: 100% 250px;
-}
-  
-#sixthFeaturedButton {
-    background: url('/static/sourceImages/earTraining.png') no-repeat center;
-    background-size: 100% 250px;
-}
-  
-#seventhFeaturedButton {
-    background: url('/static/sourceImages/neuralNetwork.png') no-repeat center;
-    background-size: 100% 250px;
-}
-  
-#eighthFeaturedButton {
-    background: url('/static/sourceImages/earTraining.png') no-repeat center;
-    background-size: 100% 250px;
-}
-
-#ninthFeaturedButton {
-    background: url('/static/sourceImages/neuralNetwork.png') no-repeat center;
-    background-size: 100% 250px;
-}
-  
-#tenthFeaturedButton {
-    margin-right: 1.25%;
-    background: url('/static/sourceImages/earTraining.png') no-repeat center;
+    background-image: url('\\static\\sourceImages\\earTraining.png');
     background-size: 100% 250px;
 }

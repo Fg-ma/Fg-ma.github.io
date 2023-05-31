@@ -2,268 +2,274 @@
 
 <html>
 
-<head>
-    <title>TF GUI</title>
-    <meta charset=utf-8>
-    <link rel="stylesheet" href="tfcss/tfStyles.css">
-    <link rel="stylesheet" href="tfcss/tfGrid.css">
-    <link rel="stylesheet" href="tfcss/tfInputs.css">
-    <link rel="stylesheet" href="tfcss/tfNavbar.css">
-</head>
+    <head>
+        <title>TF GUI</title>
+        <meta charset=utf-8>
+        <link rel="stylesheet" href="tfcss/tfStyles.css">
+        <link rel="stylesheet" href="tfcss/tfGrid.css">
+        <link rel="stylesheet" href="tfcss/tfInputs.css">
+        <link rel="stylesheet" href="tfcss/tfNavbar.css">
+    </head>
 
-<body>
-    <div id="navbar">
-        <p id="title">TF GUI</p>
-        <div id="navbar-right">
-            <a id="navbarButtonOne" class="active" href="/index.html">Home</a>
-            <a id="navbarButtonTwo" href="#contact">Contact</a>
-            <a id="navbarButtonThree" href="#about">About</a>
+    <body>
+
+        <div id="navbar">
+            <p id="title">TF GUI</p>
+            <div id="navbar-right">
+                <a id="navbarButtonOne" class="active" href="/index.html">Home</a>
+                <a id="navbarButtonTwo" href="#contact">Contact</a>
+                <a id="navbarButtonThree" href="#about">About</a>
+            </div>
         </div>
-    </div>
-    <p id="primaryLayersLabel">Primary Layers</p>
-    <select id="primaryDrop">
-        <option value="Select a layer" disabled selected hidden>Select a layer</option>
-        <optgroup label="Core Layers">
-            <option value="Input">Input</option>
-            <option value="Dense">Dense</option>
-            <option value="Activation">Activation</option>
-            <option value="Embedding">Embedding</option>
-            <option value="Masking">Masking</option>
-            <option value="Lambda">Lambda</option>
-        </optgroup>
-        <optgroup label="Convolutional Layers">
-            <option value="Conv1D">Conv1D</option>
-            <option value="Conv2D">Conv2D</option>
-            <option value="Conv3D">Conv3D</option>
-            <option value="SeparableConv1D">SeparableConv1D</option>
-            <option value="SeparableConv2D">SeparableConv2D</option>
-            <option value="DepthwiseConv2D">DepthwiseConv2D</option>
-            <option value="Conv1DTranspose">Conv1DTranspose</option>
-            <option value="Conv2DTranspose">Conv2DTranspose</option>
-            <option value="Conv3DTranspose">Conv3DTranspose</option>
-        </optgroup>
-        <optgroup label="Pooling Layers">
-            <option value="MaxPooling1D">MaxPooling1D</option>
-            <option value="MaxPooling2D">MaxPooling2D</option>
-            <option value="MaxPooling3D">MaxPooling3D</option>
-            <option value="GlobalMaxPooling1D">GlobalMaxPooling1D</option>
-            <option value="GlobalMaxPooling2D">GlobalMaxPooling2D</option>
-            <option value="GlobalMaxPooling3D">GlobalMaxPooling3D</option>
-            <option value="AveragePooling1D">AveragePooling1D</option>
-            <option value="AveragePooling2D">AveragePooling2D</option>
-            <option value="AveragePooling3D">AveragePooling3D</option>
-            <option value="GlobalAveragePooling1D">GlobalAveragePooling1D</option>
-            <option value="GlobalAveragePooling2D">GlobalAveragePooling2D</option>
-            <option value="GlobalAveragePooling3D">GlobalAveragePooling3D</option>
-        </optgroup>
-        <optgroup label="Recurrent Layers">
-            <option value="LSTM">LSTM</option>
-            <option value="GRU">GRU</option>
-            <option value="SimpleRNN">SimpleRNN</option>
-            <option value="TimeDistributed">TimeDistributed</option>
-            <option value="Bidirectional">Bidirectional</option>
-            <option value="ConvLSTM1D">ConvLSTM1D</option>
-            <option value="ConvLSTM2D">ConvLSTM2D</option>
-            <option value="ConvLSTM3D">ConvLSTM3D</option>
-            <option value="Base_RNN">Base_RNN</option>
-        </optgroup>
-        <optgroup label="Regularization Layers">
-            <option value="Dropout">Dropout</option>
-            <option value="SpatialDropout1D">SpatialDropout1D</option>
-            <option value="SpatialDropout2D">SpatialDropout2D</option>
-            <option value="SpatialDropout3D">SpatialDropout3D</option>
-            <option value="GaussianDropout">GaussianDropout</option>
-            <option value="GaussianNoise">GaussianNoise</option>
-            <option value="ActivityRegularization">ActivityRegularization</option>
-            <option value="AlphaDropout">AlphaDropout</option>
-        </optgroup>
-        <optgroup label="Reshaping Layers">
-            <option value="Reshape">Reshape</option>
-            <option value="Flatten">Flatten</option>
-            <option value="RepeatVector">RepeatVector</option>
-            <option value="Permute">Permute</option>
-            <option value="Cropping1D">Cropping1D</option>
-            <option value="Cropping2D">Cropping2D</option>
-            <option value="Cropping3D">Cropping3D</option>
-        </optgroup>
-        <optgroup label="Activation Layers">
-            <option value="ReLU">ReLU</option>
-            <option value="LeakyReLU">LeakyReLU</option>
-            <option value="ThresholdedReLU">ThresholdedReLU</option>
-            <option value="PReLU">PReLU</option>
-            <option value="ELU">ELU</option>
-            <option value="Softmax">Softmax</option>
-        </optgroup>
-    </select>
-    <button id="enter1">Enter</button>
-    <p id="secondaryLayersLabel">Secondary Layers</p>
-    <select id="secondaryDrop">
-        <option value="Select a layer" disabled selected hidden>Select a layer</option>
-        <optgroup label="Text Preprocessing Layers">
-            <option value="TextVectorization">TextVectorization</option>
-        </optgroup>
-        <optgroup label="Numerical Features Preprocessing Layers">
-            <option value="Normalization">Normalization</option>
-            <option value="Discretization">Discretization</option>
-        </optgroup>
-        <optgroup label="Categorical Feature Preprocessing Layers">
-            <option value="CategoryEncoding">CategoryEncoding</option>
-            <option value="Hashing">Hashing</option>
-            <option value="StringLookup">StringLookup</option>
-            <option value="IntegerLookup">IntegerLookup</option>
-        </optgroup>
-        <optgroup label="Image Preprocessing Layers">
-            <option value="Resizing">Resizing</option>
-            <option value="Rescaling">Rescaling</option>
-            <option value="CenterCrop">CenterCrop</option>
-        </optgroup>
-        <optgroup label="Image augmentation Layers">
-            <option value="RandomCrop">RandomCrop</option>
-            <option value="RandomFlip">RandomFlip</option>
-            <option value="RandomTranslation">RandomTranslation</option>
-            <option value="RandomRotation">RandomRotation</option>
-            <option value="RandomZoom">RandomZoom</option>
-            <option value="RandomHeight">RandomHeight</option>
-            <option value="RandomWidth">RandomWidth</option>
-            <option value="RandomContrast">RandomContrast</option>
-        </optgroup>
-        <optgroup label="Normalization Layers">
-            <option value="BatchNormalization">BatchNormalization</option>
-            <option value="LayerNormalization">LayerNormalization</option>
-            <option value="UnitNormalization">UnitNormalization</option>
-        </optgroup>
-        <optgroup label="Attention Layers">
-            <option value="MultiHeadAttention">MultiHeadAttention</option>
-            <option value="Attention">Attention</option>
-            <option value="AdditiveAttention">AdditiveAttention</option>
-        </optgroup>
-        <optgroup label="Merging Layers">
-            <option value="Concatenate">Concatenate</option>
-            <option value="Average">Average</option>
-            <option value="Maximum">Maximum</option>
-            <option value="Minimum">Minimum</option>
-            <option value="Add">Add</option>
-            <option value="Subtract">Multiply</option>
-            <option value="Dot">Dot</option>
-            <option value="UpSampling1D">UpSampling1D</option>
-            <option value="UpSampling2D">UpSampling2D</option>
-            <option value="UpSampling3D">UpSampling3D</option>
-            <option value="ZeroPadding1D">ZeroPadding1D</option>
-            <option value="ZeroPadding2D">ZeroPadding2D</option>
-            <option value="ZeroPadding3D">ZeroPadding3D</option>
-        </optgroup>
-        <optgroup label="Locally-Connected Layers">
-            <option value="LocallyConnected1D">LocallyConnected1D</option>
-            <option value="LocallyConnected2D">LocallyConnected2D</option>
-        </optgroup>
-    </select>
-    <button id="enter2">Enter</button>
-    <br>
-    <br>
-    <br>
-    <p id="userPrompt">Enter the information prompted:</p>
-    <div id="grid">
 
-        <label class="labelOneOne" id="labelHTMLTF1"></label>
-        <label class="labelTwoOne" id="labelHTMLTF2"></label>
-        <label class="labelThreeOne" id="labelHTMLTF3"></label>
-        <label class="labelFourOne" id="labelHTMLTF4"></label>
-        <div class="oneOne" id="HTMLTF1"></div>
-        <div class="twoOne" id="HTMLTF2"></div>
-        <div class="threeOne" id="HTMLTF3"></div>
-        <div class="fourOne" id="HTMLTF4"></div>
+        <p id="primaryLayersLabel">Primary Layers</p>
+        <select id="primaryDrop">
+            <option value="Select a layer" disabled selected hidden>Select a layer</option>
+            <optgroup label="Core Layers">
+                <option value="Input">Input</option>
+                <option value="Dense">Dense</option>
+                <option value="Activation">Activation</option>
+                <option value="Embedding">Embedding</option>
+                <option value="Masking">Masking</option>
+                <option value="Lambda">Lambda</option>
+            </optgroup>
+            <optgroup label="Convolutional Layers">
+                <option value="Conv1D">Conv1D</option>
+                <option value="Conv2D">Conv2D</option>
+                <option value="Conv3D">Conv3D</option>
+                <option value="SeparableConv1D">SeparableConv1D</option>
+                <option value="SeparableConv2D">SeparableConv2D</option>
+                <option value="DepthwiseConv2D">DepthwiseConv2D</option>
+                <option value="Conv1DTranspose">Conv1DTranspose</option>
+                <option value="Conv2DTranspose">Conv2DTranspose</option>
+                <option value="Conv3DTranspose">Conv3DTranspose</option>
+            </optgroup>
+            <optgroup label="Pooling Layers">
+                <option value="MaxPooling1D">MaxPooling1D</option>
+                <option value="MaxPooling2D">MaxPooling2D</option>
+                <option value="MaxPooling3D">MaxPooling3D</option>
+                <option value="GlobalMaxPooling1D">GlobalMaxPooling1D</option>
+                <option value="GlobalMaxPooling2D">GlobalMaxPooling2D</option>
+                <option value="GlobalMaxPooling3D">GlobalMaxPooling3D</option>
+                <option value="AveragePooling1D">AveragePooling1D</option>
+                <option value="AveragePooling2D">AveragePooling2D</option>
+                <option value="AveragePooling3D">AveragePooling3D</option>
+                <option value="GlobalAveragePooling1D">GlobalAveragePooling1D</option>
+                <option value="GlobalAveragePooling2D">GlobalAveragePooling2D</option>
+                <option value="GlobalAveragePooling3D">GlobalAveragePooling3D</option>
+            </optgroup>
+            <optgroup label="Recurrent Layers">
+                <option value="LSTM">LSTM</option>
+                <option value="GRU">GRU</option>
+                <option value="SimpleRNN">SimpleRNN</option>
+                <option value="TimeDistributed">TimeDistributed</option>
+                <option value="Bidirectional">Bidirectional</option>
+                <option value="ConvLSTM1D">ConvLSTM1D</option>
+                <option value="ConvLSTM2D">ConvLSTM2D</option>
+                <option value="ConvLSTM3D">ConvLSTM3D</option>
+                <option value="Base_RNN">Base_RNN</option>
+            </optgroup>
+            <optgroup label="Regularization Layers">
+                <option value="Dropout">Dropout</option>
+                <option value="SpatialDropout1D">SpatialDropout1D</option>
+                <option value="SpatialDropout2D">SpatialDropout2D</option>
+                <option value="SpatialDropout3D">SpatialDropout3D</option>
+                <option value="GaussianDropout">GaussianDropout</option>
+                <option value="GaussianNoise">GaussianNoise</option>
+                <option value="ActivityRegularization">ActivityRegularization</option>
+                <option value="AlphaDropout">AlphaDropout</option>
+            </optgroup>
+            <optgroup label="Reshaping Layers">
+                <option value="Reshape">Reshape</option>
+                <option value="Flatten">Flatten</option>
+                <option value="RepeatVector">RepeatVector</option>
+                <option value="Permute">Permute</option>
+                <option value="Cropping1D">Cropping1D</option>
+                <option value="Cropping2D">Cropping2D</option>
+                <option value="Cropping3D">Cropping3D</option>
+            </optgroup>
+            <optgroup label="Activation Layers">
+                <option value="ReLU">ReLU</option>
+                <option value="LeakyReLU">LeakyReLU</option>
+                <option value="ThresholdedReLU">ThresholdedReLU</option>
+                <option value="PReLU">PReLU</option>
+                <option value="ELU">ELU</option>
+                <option value="Softmax">Softmax</option>
+            </optgroup>
+        </select>
+        <button id="enter1">Enter</button>
 
-        <label class="labelOneTwo" id="labelHTMLDropdown1"></label>
-        <label class="labelTwoTwo" id="labelHTMLDropdown2"></label>
-        <label class="labelThreeTwo" id="labelHTMLDropdown3"></label>
-        <label class="labelFourTwo" id="labelHTMLDropdown4"></label>
-        <div class="oneTwo" id="HTMLdropdown1"></div>
-        <div class="twoTwo" id="HTMLdropdown2"></div>
-        <div class="threeTwo" id="HTMLdropdown3"></div>
-        <div class="fourTwo" id="HTMLdropdown4"></div>
+        <p id="secondaryLayersLabel">Secondary Layers</p>
+        <select id="secondaryDrop">
+            <option value="Select a layer" disabled selected hidden>Select a layer</option>
+            <optgroup label="Text Preprocessing Layers">
+                <option value="TextVectorization">TextVectorization</option>
+            </optgroup>
+            <optgroup label="Numerical Features Preprocessing Layers">
+                <option value="Normalization">Normalization</option>
+                <option value="Discretization">Discretization</option>
+            </optgroup>
+            <optgroup label="Categorical Feature Preprocessing Layers">
+                <option value="CategoryEncoding">CategoryEncoding</option>
+                <option value="Hashing">Hashing</option>
+                <option value="StringLookup">StringLookup</option>
+                <option value="IntegerLookup">IntegerLookup</option>
+            </optgroup>
+            <optgroup label="Image Preprocessing Layers">
+                <option value="Resizing">Resizing</option>
+                <option value="Rescaling">Rescaling</option>
+                <option value="CenterCrop">CenterCrop</option>
+            </optgroup>
+            <optgroup label="Image augmentation Layers">
+                <option value="RandomCrop">RandomCrop</option>
+                <option value="RandomFlip">RandomFlip</option>
+                <option value="RandomTranslation">RandomTranslation</option>
+                <option value="RandomRotation">RandomRotation</option>
+                <option value="RandomZoom">RandomZoom</option>
+                <option value="RandomHeight">RandomHeight</option>
+                <option value="RandomWidth">RandomWidth</option>
+                <option value="RandomContrast">RandomContrast</option>
+            </optgroup>
+            <optgroup label="Normalization Layers">
+                <option value="BatchNormalization">BatchNormalization</option>
+                <option value="LayerNormalization">LayerNormalization</option>
+                <option value="UnitNormalization">UnitNormalization</option>
+            </optgroup>
+            <optgroup label="Attention Layers">
+                <option value="MultiHeadAttention">MultiHeadAttention</option>
+                <option value="Attention">Attention</option>
+                <option value="AdditiveAttention">AdditiveAttention</option>
+            </optgroup>
+            <optgroup label="Merging Layers">
+                <option value="Concatenate">Concatenate</option>
+                <option value="Average">Average</option>
+                <option value="Maximum">Maximum</option>
+                <option value="Minimum">Minimum</option>
+                <option value="Add">Add</option>
+                <option value="Subtract">Multiply</option>
+                <option value="Dot">Dot</option>
+                <option value="UpSampling1D">UpSampling1D</option>
+                <option value="UpSampling2D">UpSampling2D</option>
+                <option value="UpSampling3D">UpSampling3D</option>
+                <option value="ZeroPadding1D">ZeroPadding1D</option>
+                <option value="ZeroPadding2D">ZeroPadding2D</option>
+                <option value="ZeroPadding3D">ZeroPadding3D</option>
+            </optgroup>
+            <optgroup label="Locally-Connected Layers">
+                <option value="LocallyConnected1D">LocallyConnected1D</option>
+                <option value="LocallyConnected2D">LocallyConnected2D</option>
+            </optgroup>
+        </select>
+        <button id="enter2">Enter</button>
 
-        <label class="labelOneThree" id="labelHTMLTextEntry1"></label>
-        <label class="labelTwoThree" id="labelHTMLTextEntry2"></label>
-        <label class="labelThreeThree" id="labelHTMLTextEntry3"></label>
-        <label class="labelFourThree" id="labelHTMLTextEntry4"></label>
-        <div class="oneThree" id="HTMLtextEntry1"></div>
-        <div class="twoThree" id="HTMLtextEntry2"></div>
-        <div class="threeThree" id="HTMLtextEntry3"></div>
-        <div class="fourThree" id="HTMLtextEntry4"></div>
-
-        <label class="labelOneFour" id="labelHTMLNumEntry1"></label>
-        <label class="labelTwoFour" id="labelHTMLNumEntry2"></label>
-        <label class="labelThreeFour" id="labelHTMLNumEntry3"></label>
-        <label class="labelFourFour" id="labelHTMLNumEntry4"></label>
-        <div class="oneFour" id="HTMLnumEntry1"></div>
-        <div class="twoFour" id="HTMLnumEntry2"></div>
-        <div class="threeFour" id="HTMLnumEntry3"></div>
-        <div class="fourFour" id="HTMLnumEntry4"></div>
-
-        <label class="labelOneFive" id="labelHTMLSlider1"></label>
-        <label class="labelTwoFive" id="labelHTMLSlider2"></label>
-        <label class="labelThreeFive" id="labelHTMLSlider3"></label>
-        <label class="labelFourFive" id="labelHTMLSlider4"></label>
-        <div class="oneFive" id="HTMLslider1"></div>
-        <div class="twoFive" id="HTMLslider2"></div>
-        <div class="threeFive" id="HTMLslider3"></div>
-        <div class="fourFive" id="HTMLslider4"></div>
-
-        <label class="labelOneSix" id="labelHTMLMultiNumEntry1"></label>
-        <label class="labelTwoSix" id="labelHTMLMultiNumEntry2"></label>
-        <label class="labelThreeSix" id="labelHTMLMultiNumEntry3"></label>
-        <label class="labelFourSix" id="labelHTMLMultiNumEntry4"></label>
-        <div class="oneSix" id="HTMLmultiNumEntry1"></div>
-        <div class="twoSix" id="HTMLmultiNumEntry2"></div>
-        <div class="threeSix" id="HTMLmultiNumEntry3"></div>
-        <div class="fourSix" id="HTMLmultiNumEntry4"></div>
-
-        <label class="labelOneSeven" id="labelHTMLExtra1"></label>
-        <label class="labelTwoSeven" id="labelHTMLExtra2"></label>
-        <label class="labelThreeSeven" id="labelHTMLExtra3"></label>
-        <label class="labelFourSeven" id="labelHTMLExtra4"></label>
-        <div class="oneSeven" id="HTMLextra1"></div>
-        <div class="twoSeven" id="HTMLextra2"></div>
-        <div class="threeSeven" id="HTMLextra3"></div>
-        <div class="fourSeven" id="HTMLextra4"></div>
-
-        <label class="labelOneEight" id="labelHTMLkwargs1"></label>
-        <label class="labelTwoEight" id="labelHTMLkwargs2"></label>
-        <label class="labelThreeEight" id="labelHTMLkwargs3"></label>
-        <label class="labelFourEight" id="labelHTMLkwargs4"></label>
-        <div class="oneEight" id="HTMLkwargs1"></div>
-        <div class="twoEight" id="HTMLkwargs2"></div>
-        <div class="threeEight" id="HTMLkwargs3"></div>
-        <div class="fourEight" id="HTMLkwargs4"></div>
-
-    </div>
-
-    <button id="addLayerButton">Add Layer</button>
-    <button id="clearLayerButton">Clear Layer</button>
-    <form id="form" onsubmit="download(this['name'].value, this['text'].value)">
-        <input id="fileNameInput" type="text" name="name" value="test.txt">
         <br>
-        <textarea id="storage" rows=3 cols=50 name="text">
-    # Template to be used in a TF model creator python file
-    # Download this file and input into the linked python program on this page
-        </textarea>
         <br>
-        <div class="downloadButton">
-            <input id="downloadButton" type="submit" value="Download">\
+        <br>
+
+        <p id="userPrompt">Enter the information prompted:</p>
+        <div id="grid">
+
+            <label class="labelOneOne" id="labelHTMLTF1"></label>
+            <label class="labelTwoOne" id="labelHTMLTF2"></label>
+            <label class="labelThreeOne" id="labelHTMLTF3"></label>
+            <label class="labelFourOne" id="labelHTMLTF4"></label>
+            <div class="oneOne" id="HTMLTF1"></div>
+            <div class="twoOne" id="HTMLTF2"></div>
+            <div class="threeOne" id="HTMLTF3"></div>
+            <div class="fourOne" id="HTMLTF4"></div>
+
+            <label class="labelOneTwo" id="labelHTMLDropdown1"></label>
+            <label class="labelTwoTwo" id="labelHTMLDropdown2"></label>
+            <label class="labelThreeTwo" id="labelHTMLDropdown3"></label>
+            <label class="labelFourTwo" id="labelHTMLDropdown4"></label>
+            <div class="oneTwo" id="HTMLdropdown1"></div>
+            <div class="twoTwo" id="HTMLdropdown2"></div>
+            <div class="threeTwo" id="HTMLdropdown3"></div>
+            <div class="fourTwo" id="HTMLdropdown4"></div>
+
+            <label class="labelOneThree" id="labelHTMLTextEntry1"></label>
+            <label class="labelTwoThree" id="labelHTMLTextEntry2"></label>
+            <label class="labelThreeThree" id="labelHTMLTextEntry3"></label>
+            <label class="labelFourThree" id="labelHTMLTextEntry4"></label>
+            <div class="oneThree" id="HTMLtextEntry1"></div>
+            <div class="twoThree" id="HTMLtextEntry2"></div>
+            <div class="threeThree" id="HTMLtextEntry3"></div>
+            <div class="fourThree" id="HTMLtextEntry4"></div>
+
+            <label class="labelOneFour" id="labelHTMLNumEntry1"></label>
+            <label class="labelTwoFour" id="labelHTMLNumEntry2"></label>
+            <label class="labelThreeFour" id="labelHTMLNumEntry3"></label>
+            <label class="labelFourFour" id="labelHTMLNumEntry4"></label>
+            <div class="oneFour" id="HTMLnumEntry1"></div>
+            <div class="twoFour" id="HTMLnumEntry2"></div>
+            <div class="threeFour" id="HTMLnumEntry3"></div>
+            <div class="fourFour" id="HTMLnumEntry4"></div>
+
+            <label class="labelOneFive" id="labelHTMLSlider1"></label>
+            <label class="labelTwoFive" id="labelHTMLSlider2"></label>
+            <label class="labelThreeFive" id="labelHTMLSlider3"></label>
+            <label class="labelFourFive" id="labelHTMLSlider4"></label>
+            <div class="oneFive" id="HTMLslider1"></div>
+            <div class="twoFive" id="HTMLslider2"></div>
+            <div class="threeFive" id="HTMLslider3"></div>
+            <div class="fourFive" id="HTMLslider4"></div>
+
+            <label class="labelOneSix" id="labelHTMLMultiNumEntry1"></label>
+            <label class="labelTwoSix" id="labelHTMLMultiNumEntry2"></label>
+            <label class="labelThreeSix" id="labelHTMLMultiNumEntry3"></label>
+            <label class="labelFourSix" id="labelHTMLMultiNumEntry4"></label>
+            <div class="oneSix" id="HTMLmultiNumEntry1"></div>
+            <div class="twoSix" id="HTMLmultiNumEntry2"></div>
+            <div class="threeSix" id="HTMLmultiNumEntry3"></div>
+            <div class="fourSix" id="HTMLmultiNumEntry4"></div>
+
+            <label class="labelOneSeven" id="labelHTMLExtra1"></label>
+            <label class="labelTwoSeven" id="labelHTMLExtra2"></label>
+            <label class="labelThreeSeven" id="labelHTMLExtra3"></label>
+            <label class="labelFourSeven" id="labelHTMLExtra4"></label>
+            <div class="oneSeven" id="HTMLextra1"></div>
+            <div class="twoSeven" id="HTMLextra2"></div>
+            <div class="threeSeven" id="HTMLextra3"></div>
+            <div class="fourSeven" id="HTMLextra4"></div>
+
+            <label class="labelOneEight" id="labelHTMLkwargs1"></label>
+            <label class="labelTwoEight" id="labelHTMLkwargs2"></label>
+            <label class="labelThreeEight" id="labelHTMLkwargs3"></label>
+            <label class="labelFourEight" id="labelHTMLkwargs4"></label>
+            <div class="oneEight" id="HTMLkwargs1"></div>
+            <div class="twoEight" id="HTMLkwargs2"></div>
+            <div class="threeEight" id="HTMLkwargs3"></div>
+            <div class="fourEight" id="HTMLkwargs4"></div>
+
         </div>
-    </form>
-    <br>
-    <br>
-    <br>
-    <canvas id="modelVisualizer"></canvas>
 
-    <script src="tfjs/tfServer.js"></script>
-    <script src="tfjs/tfDownload.js"></script>
-    <script src="tfjs/tfScroll.js"></script>
-    <script src="tfjs/tfClearLayer.js"></script>
-    <script src="tfjs/tfAddLayer.js"></script>
-    <script src="tfjs/tfPrimaryDropdown.js"></script>
-    <script src="tfjs/tfSecondaryDropdown.js"></script>
-</body>
+        <button id="addLayerButton">Add Layer</button>
+        <button id="clearLayerButton">Clear Layer</button>
+        
+        <form id="form" onsubmit="download(this['name'].value, this['text'].value)">
+            <input id="fileNameInput" type="text" name="name" value="test.txt">
+            <br>
+            <textarea id="storage" rows=3 cols=50 name="text">
+        # Template to be used in a TF model creator python file
+        # Download this file and input into the linked python program on this page
+            </textarea>
+            <br>
+            <div class="downloadButton">
+                <input id="downloadButton" type="submit" value="Download">\
+            </div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <canvas id="modelVisualizer"></canvas>
+
+        <script src="tfjs/tfServer.js"></script>
+        <script src="tfjs/tfDownload.js"></script>
+        <script src="tfjs/tfScroll.js"></script>
+        <script src="tfjs/tfClearLayer.js"></script>
+        <script src="tfjs/tfAddLayer.js"></script>
+        <script src="tfjs/tfPrimaryDropdown.js"></script>
+        <script src="tfjs/tfSecondaryDropdown.js"></script>
+    </body>
 
 </html>

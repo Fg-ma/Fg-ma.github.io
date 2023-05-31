@@ -2,70 +2,70 @@
 
 <html>
 
-<head>
-    <title>Nexus</title>
-    <meta charset=utf-8>
-    <link rel="stylesheet" href="static/css/styles.css">
-    <link rel="stylesheet" href="static/css/navbar.css">
-    <link rel="stylesheet" href="static/css/horizonalScroll.css">
-    <link rel="stylesheet" href="static/css/pageSearch.css">
-</head>
+    <head>
+        <title>Nexus</title>
+        <meta charset=utf-8>
+        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="static/css/navbar.css">
+        <link rel="stylesheet" href="static/css/horizonalScroll.css">
+        <link rel="stylesheet" href="static/css/pageSearch.css">
+    </head>
 
-<body id="container">
-    <div id="navbar">
-        <a href="#default" id="nexusTitle">Nexus</a>
-        <div id="navbar-right">
-            <a class="active" href="/index.html">Home</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-        </div>
-    </div>
-    <div id="horizontalScroll">
-        <button class="backwardHorizontalScroll" id="backwardHorizontalScrollButton" type="button"></button>
-        <div id="featuredButtons" class="scrollmenu">
-            <H2 id="featuredTitle">Featured</H2>
-            <a href="..\tfGUI\tfStatic\index.html" id="firstFeaturedButton"></button></a>
-            <a href="..\passiveEarTraining\eStatic\index.html" id="secondFeaturedButton"></button></a>
-            <a href="..\tfGUI\tfStatic\index.html" id="thirdFeaturedButton"></a>
-            <a href="..\passiveEarTraining\eStatic\index.html" id="fourthFeaturedButton"></a>
-            <a href="" id="fifthFeaturedButton"></a>
-            <a href="" id="sixthFeaturedButton"></a>
-            <a href="" id="seventhFeaturedButton"></a>
-            <a href="" id="eighthFeaturedButton"></a>
-            <a href="" id="ninthFeaturedButton"></a>
-            <a href="" id="tenthFeaturedButton"></a>
-        </div>
-        <button class="fowardHorizontalScroll" id="forwardHorizontalScrollButton" type="button"></button>
-    </div>
-    <br>
-    <div class="pageNavBar">
-        <div class="sortByContainer">
-            <label for="sortBy">Sort by:</label>
-            <select name="sortBy" id="sortBy">
-                <option value="sortBy" disabled selected hidden>Sort by</option>
-                <option value="name">Name</option>
-                <option value="newest">Newest</option>
-                <option value="oldest">Oldest</option>
-            </select>
-        </div>
-        <div class="pageSearchBar">
-            <form id="pageSearchForm" action="index.html" method="GET">
-                <input type="text" placeholder="Search..." name="search">
-                <input type="submit" value="Search">
-            </form>
-        </div>
-    </div>
-    <div id="canvas3d">
+    <body id="container">
 
-    </div>
-    <script src="static/js/server.js"></script>
-    <script src="static/js/three.min.js"></script>
-    <script src="static/js/GLTFLoader.js"></script>
-    <script src="static/js/OBJLoader.js"></script>
-    <script src="static/js/MTLLoader.js"></script>
-    <script src="static/js/3DLogic.js"></script>
-    <script src="static/js/horizontalScroll.js"></script>
-    <script src="static/js/navbar.js"></script>
-</body>
+        <div id="navbar">
+            <a href="#default" id="nexusTitle">Nexus</a>
+            <div id="navbar-right">
+                <a class="active" href="/index.html">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+
+        <div id="horizontalScroll">
+            <button class="backwardHorizontalScroll" id="backwardHorizontalScrollButton" type="button"></button>
+            <div id="featuredButtons" class="scrollmenu">
+                <H2 id="featuredTitle">Featured</H2>
+                <a href="" id="firstFeaturedButton"></a>
+                <a href="" id="secondFeaturedButton"></a>
+                <a href="" id="thirdFeaturedButton"></a>
+                <a href="" id="fourthFeaturedButton"></a>
+            </div>
+            <button class="fowardHorizontalScroll" id="forwardHorizontalScrollButton" type="button"></button>
+        </div>
+
+        <br>
+
+        <div class="pageNavBar">
+            <div class="sortByContainer">
+                <label for="sortBy">Sort by:</label>
+                <select name="sortBy" id="sortBy">
+                    <option value="sortBy" disabled selected hidden>Sort by</option>
+                    <option value="name">Name</option>
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                </select>
+            </div>
+            <div class="pageSearchBar">
+                <form id="pageSearchForm" action="index.html" method="GET">
+                    <input type="text" placeholder="Search..." name="search">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+        </div>
+        
+        <div id="canvas3d">
+
+        </div>
+
+        <script src="static/js/server.js"></script>
+        <script src="static/js/three.min.js"></script>
+        <script src="static/js/GLTFLoader.js"></script>
+        <script src="static/js/OBJLoader.js"></script>
+        <script src="static/js/MTLLoader.js"></script>
+        <script src="static/js/3DLogic.js"></script>
+        <script src="static/js/horizontalScroll.js"></script>
+        <script src="static/js/navbar.js"></script>
+    </body>
 
 </html>
