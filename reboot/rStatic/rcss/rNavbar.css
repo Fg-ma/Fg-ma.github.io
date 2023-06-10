@@ -11,8 +11,9 @@
 }
 
 #navbar a {
-  position: relative;
   font-family: bodyFont;
+  border-radius: 4px;
+  position: relative;
   top: 8%;
   float: left;
   color: black;
@@ -21,7 +22,6 @@
   text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
-  border-radius: 4px;
 }
 
 #navbar #title {
@@ -31,13 +31,8 @@
 }
 
 #navbar-right {
-  display: inline;
   float: right;
   margin-top: .25%;
-}
-
-#navbar-right a {
-  float: right;
 }
   
 #navbar-right a:hover {
@@ -56,7 +51,7 @@
 }
 
 #aboutButton {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 580px) {

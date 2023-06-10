@@ -1,0 +1,24 @@
+@font-face {
+  font-family: nexusTitleFont;
+  src: url(/static/sources/ZenDots-Regular.ttf);
+}
+
+@font-face {
+  font-family: bodyFont;
+  src: url(/static/sources/Baloo2-Regular.ttf);
+}
+
+body {
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #0c151b;
+  overflow: auto;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+  margin: 0 auto;
+  color: #F5F5F5;
+}

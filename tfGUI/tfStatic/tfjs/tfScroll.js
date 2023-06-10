@@ -2,22 +2,18 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-      document.getElementById("navbar").style.padding = "";
-      document.getElementById("title").style.fontSize = "140%";
-      document.getElementById("navbarButtonOne").style.padding = "6px";
-      document.getElementById("navbarButtonTwo").style.padding = "6px";
-      document.getElementById("navbarButtonThree").style.padding = "6px";
-      document.getElementById("navbarButtonOne").style.marginTop = "20px";
-      document.getElementById("navbarButtonTwo").style.marginTop = "20px";
-      document.getElementById("navbarButtonThree").style.marginTop = "20px";
+      document.getElementById("navbar").style.height = "55px";
+      document.getElementById("title").style.fontSize = "200%";
+      document.getElementById("title").style.top = "5px";
+      document.getElementById("homeButton").style.top = "2.5px";
+      document.getElementById("contactButton").style.top = "2.5px";
+      document.getElementById("aboutButton").style.top = "2.5px";
     } else {
-      document.getElementById("navbar").style.padding = "";
-      document.getElementById("title").style.fontSize = "250%";
-      document.getElementById("navbarButtonOne").style.padding = "12px";
-      document.getElementById("navbarButtonTwo").style.padding = "12px";
-      document.getElementById("navbarButtonThree").style.padding = "12px";
-      document.getElementById("navbarButtonOne").style.marginTop = "30px";
-      document.getElementById("navbarButtonTwo").style.marginTop = "30px";
-      document.getElementById("navbarButtonThree").style.marginTop = "30px";
+      document.getElementById("navbar").style.height = "90px";
+      document.getElementById("title").style.fontSize = "220%";
+      document.getElementById("title").style.top = "22.5px";
+      document.getElementById("homeButton").style.top = "22.5px";
+      document.getElementById("contactButton").style.top = "22.5px";
+      document.getElementById("aboutButton").style.top = "22.5px";
     };
 }

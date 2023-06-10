@@ -1,60 +1,56 @@
 * {box-sizing: border-box;}
 
 #navbar {
-overflow: hidden;
-background-color: #f1f1f1;
-position: fixed;
-width: 100%;
-top: 0;
-z-index: 1;
-}
-
-#navbar p {
-float: left;
-color: black;
-text-align: center;
-padding: 12px 1.5%;
-text-decoration: none;
-line-height: 10px;
-border-radius: 4px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  top: 0;
+  z-index: 99;
 }
 
 #navbar a {
+  font-family: bodyFont;
+  border-radius: 4px;
+  position: relative;
+  top: 22px;
   float: left;
   color: black;
   text-align: center;
-  margin-top: 30px;
   padding: 12px;
   text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
-  border-radius: 4px;
-  font-family: bodyFont;
 }
-  
 
 #navbar #title {
-font-size: 250%;
-font-weight: bold;
-font-family: nexusTitleFont;
-}
-
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#navbar a.active {
-  background-color: #57BCFF;
-  color: white;
-}
-
-#navbarButtonThree {
-  margin-right: 25px;
+  font-size: 200%;
+  font-weight: bold;
+  font-family: nexusTitleFont;
 }
 
 #navbar-right {
-float: right;
+  float: right;
+}
+  
+#navbar-right a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+#navbar a.active {
+    background-color: #57BCFF;
+    color: white;
+}
+
+#navbar a.active:hover {
+  background-color: #0099ff;
+  color: white;
+}
+
+#aboutButton {
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 580px) {

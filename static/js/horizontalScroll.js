@@ -1,8 +1,8 @@
  var scrollPosition = 0;
- var links = ["../tfGUI/tfStatic/index.html", "../passiveEarTraining/eStatic/index.html", "../tfGUI/tfStatic/index.html", "../passiveEarTraining/eStatic/index.html", "../tfGUI/tfStatic/index.html", "../passiveEarTraining/eStatic/index.html", "../tfGUI/tfStatic/index.html", "../passiveEarTraining/eStatic/index.html"];
- var images = ["/static/sourceImages/neuralNetwork.png", "/static/sourceImages/earTraining.png", "/static/sourceImages/neuralNetwork.png", "/static/sourceImages/earTraining.png", "/static/sourceImages/neuralNetwork.png", "/static/sourceImages/earTraining.png", "/static/sourceImages/neuralNetwork.png", "/static/sourceImages/earTraining.png",]
+ var links = ["../tfGUI/tfStatic/index.html", "../passiveEarTraining/eStatic/index.html", "../reboot/rStatic/index.html", "../passiveEarTraining/eStatic/index.html", "../tfGUI/tfStatic/index.html", "../passiveEarTraining/eStatic/index.html", "../tfGUI/tfStatic/index.html", "../passiveEarTraining/eStatic/index.html"];
+ var images = ["/static/sourceImages/neuralNetwork.png", "/static/sourceImages/earTraining.png", "/static/sourceImages/reboot.png", "/static/sourceImages/earTraining.png", "/static/sourceImages/neuralNetwork.png", "/static/sourceImages/earTraining.png", "/static/sourceImages/neuralNetwork.png", "/static/sourceImages/earTraining.png",]
 
- forward.onclick = function () {
+forward.onclick = function () {
     scrollPosition += 1;
     if(scrollPosition > (links.length - 1)) {
         scrollPosition = 0;

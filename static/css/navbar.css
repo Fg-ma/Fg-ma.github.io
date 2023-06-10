@@ -38,6 +38,11 @@
   color: white;
 }
 
+#navbar a.active:hover {
+  background-color: #0099ff;
+  color: white;
+}
+
 #navbar-right {
   float: right;
 }

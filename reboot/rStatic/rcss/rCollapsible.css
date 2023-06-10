@@ -1,0 +1,52 @@
+div.collapsibleTitles {
+    font-size: 25px;
+    margin: 0 auto;
+    color: #F5F5F5;
+    font-family: bodyFont;
+    line-height: 25px;
+    margin: auto;
+}
+  
+#programingReboot {
+    padding-top: 60px;
+}
+  
+.collapsibleTitlesContent{
+    text-align: center;
+    margin-bottom: 2px;
+}
+  
+.collapsible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 35px;
+    margin-left: 5%;
+    background-color: #253f52;
+    font-size: 25px;
+    color: #141414;
+    border-radius: 5px;
+}
+  
+.content {
+    display: none;
+    background-color: #F5F5F5;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 2px;
+}
+
+.logos {
+    display: inline-block;
+    width: 90px;
+    padding: .5% 1% .5% 1%;
+}
+
+.softwareLinks {
+    display: inline-block;
+    font-size: 20px;
+    font-family: bodyFont;
+    position: relative;
+    bottom: 35px;
+}
