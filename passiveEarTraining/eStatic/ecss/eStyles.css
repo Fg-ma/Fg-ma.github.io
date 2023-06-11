@@ -11,7 +11,7 @@
 body {
     margin: 0 auto;
     height: 100vh;
-    background-color: #0c151b;
+    background-color: #011526;
     overflow: hidden;
 }
 
@@ -44,6 +44,6 @@ audio {
     width: 96.5%;
     margin-bottom: 20px;
     margin-left: 1.5%;
-    background-color: #253f52;
+    background-color: #8094A6;
     border: 4px solid #F5F5F5;
 }

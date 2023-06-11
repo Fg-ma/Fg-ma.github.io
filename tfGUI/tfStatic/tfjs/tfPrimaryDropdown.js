@@ -130,7 +130,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -140,7 +140,7 @@ enterButton1.onclick = function() {
         textEntryElement2.type = "text";
         textEntryElement2.style.height = "100%";
         textEntryElement2.style.width = "100%";
-        textEntryElement2.style.backgroundColor = "#253f52";
+        textEntryElement2.style.backgroundColor = "#8094A6";
         textEntryElement2.style.margin = "0px 0px";
         textEntry2.appendChild(textEntryElement2);
 
@@ -150,7 +150,7 @@ enterButton1.onclick = function() {
         textEntryElement3.type = "text";
         textEntryElement3.style.height = "100%";
         textEntryElement3.style.width = "100%";
-        textEntryElement3.style.backgroundColor = "#253f52";
+        textEntryElement3.style.backgroundColor = "#8094A6";
         textEntryElement3.style.margin = "0px 0px";
         textEntry3.appendChild(textEntryElement3);
 
@@ -160,7 +160,7 @@ enterButton1.onclick = function() {
         textEntryElement4.type = "text";
         textEntryElement4.style.height = "100%";
         textEntryElement4.style.width = "100%";
-        textEntryElement4.style.backgroundColor = "#253f52";
+        textEntryElement4.style.backgroundColor = "#8094A6";
         textEntryElement4.style.margin = "0px 0px";
         textEntry4.appendChild(textEntryElement4);
 
@@ -170,7 +170,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -181,7 +181,7 @@ enterButton1.onclick = function() {
         textEntryElement5.type = "text";
         textEntryElement5.style.height = "100%";
         textEntryElement5.style.width = "100%";
-        textEntryElement5.style.backgroundColor = "#253f52";
+        textEntryElement5.style.backgroundColor = "#8094A6";
         textEntryElement5.style.margin = "0px 0px";
         extra1.appendChild(textEntryElement5);
 
@@ -191,7 +191,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -201,7 +201,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -211,7 +211,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -221,7 +221,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -270,7 +270,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -287,7 +287,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -304,7 +304,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -321,7 +321,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
         
         for (var i = 0; i < optionsListLength4; i++) {
@@ -339,7 +339,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -349,7 +349,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -367,7 +367,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -385,7 +385,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -403,7 +403,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "100%";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -421,7 +421,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -431,7 +431,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -441,7 +441,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -451,7 +451,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -464,7 +464,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -482,7 +482,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -492,7 +492,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -502,7 +502,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -512,7 +512,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -551,7 +551,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -568,7 +568,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -585,7 +585,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -603,7 +603,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -613,7 +613,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -623,7 +623,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
 
@@ -633,7 +633,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -643,7 +643,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -653,7 +653,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -663,7 +663,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -674,7 +674,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -684,7 +684,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -694,7 +694,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -704,7 +704,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -714,7 +714,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -725,7 +725,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -735,7 +735,7 @@ enterButton1.onclick = function() {
         textEntryElement2.type = "text";
         textEntryElement2.style.height = "100%";
         textEntryElement2.style.width = "100%";
-        textEntryElement2.style.backgroundColor = "#253f52";
+        textEntryElement2.style.backgroundColor = "#8094A6";
         textEntryElement2.style.margin = "0px 0px";
         textEntry2.appendChild(textEntryElement2);
 
@@ -746,7 +746,7 @@ enterButton1.onclick = function() {
         textEntryElement3.type = "text";
         textEntryElement3.style.height = "100%";
         textEntryElement3.style.width = "100%";
-        textEntryElement3.style.backgroundColor = "#253f52";
+        textEntryElement3.style.backgroundColor = "#8094A6";
         textEntryElement3.style.margin = "0px 0px";
         textEntry3.appendChild(textEntryElement3);
 
@@ -756,7 +756,7 @@ enterButton1.onclick = function() {
         textEntryElement4.type = "text";
         textEntryElement4.style.height = "100%";
         textEntryElement4.style.width = "100%";
-        textEntryElement4.style.backgroundColor = "#253f52";
+        textEntryElement4.style.backgroundColor = "#8094A6";
         textEntryElement4.style.margin = "0px 0px";
         textEntry4.appendChild(textEntryElement4);
 
@@ -766,7 +766,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -776,7 +776,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -786,7 +786,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -796,7 +796,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -849,7 +849,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -866,7 +866,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -883,7 +883,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -900,7 +900,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -919,7 +919,7 @@ enterButton1.onclick = function() {
         numEntryElement5.type = "number";
         numEntryElement5.style.height = "100%";
         numEntryElement5.style.width = "100%";
-        numEntryElement5.style.backgroundColor = "#253f52";
+        numEntryElement5.style.backgroundColor = "#8094A6";
         numEntryElement5.style.margin = "0px 0px";
         textEntry1.appendChild(numEntryElement5);
 
@@ -929,7 +929,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -939,7 +939,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -949,7 +949,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
 
@@ -959,7 +959,7 @@ enterButton1.onclick = function() {
         numEntryElement4.type = "number";
         numEntryElement4.style.height = "100%";
         numEntryElement4.style.width = "100%";
-        numEntryElement4.style.backgroundColor = "#253f52";
+        numEntryElement4.style.backgroundColor = "#8094A6";
         numEntryElement4.style.margin = "0px 0px";
         numEntry4.appendChild(numEntryElement4);
 
@@ -969,7 +969,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -987,7 +987,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -1005,7 +1005,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -1023,7 +1023,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -1041,7 +1041,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -1059,7 +1059,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -1077,7 +1077,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -1087,7 +1087,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -1097,7 +1097,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -1107,7 +1107,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -1160,7 +1160,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -1177,7 +1177,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -1194,7 +1194,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -1211,7 +1211,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -1229,7 +1229,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -1239,7 +1239,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -1249,7 +1249,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -1267,7 +1267,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -1285,7 +1285,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -1304,7 +1304,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tupleGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tupleGridDiv11);
@@ -1316,7 +1316,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tupleGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tupleGridDiv21);
@@ -1330,7 +1330,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tupleGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tupleGridDiv12);
@@ -1342,7 +1342,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tupleGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tupleGridDiv22);
@@ -1356,7 +1356,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement13.type = "number";
         multiNumEntryElement13.style.height = "18%";
         multiNumEntryElement13.style.width = "100%";
-        multiNumEntryElement13.style.backgroundColor = "#253f52";
+        multiNumEntryElement13.style.backgroundColor = "#8094A6";
         multiNumEntryElement13.style.margin = "0px 0px";
         tupleGridDiv13.appendChild(multiNumEntryElement13);
         multiNumEntry3.appendChild(tupleGridDiv13);
@@ -1368,7 +1368,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement23.type = "number";
         multiNumEntryElement23.style.height = "18%";
         multiNumEntryElement23.style.width = "100%";
-        multiNumEntryElement23.style.backgroundColor = "#253f52";
+        multiNumEntryElement23.style.backgroundColor = "#8094A6";
         multiNumEntryElement23.style.margin = "0px 0px";
         tupleGridDiv23.appendChild(multiNumEntryElement23);
         multiNumEntry3.appendChild(tupleGridDiv23);
@@ -1381,7 +1381,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -1399,7 +1399,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -1417,7 +1417,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -1435,7 +1435,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -1445,7 +1445,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -1455,7 +1455,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -1465,7 +1465,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -1518,7 +1518,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -1535,7 +1535,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -1552,7 +1552,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -1569,7 +1569,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -1587,7 +1587,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -1597,7 +1597,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -1607,7 +1607,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -1625,7 +1625,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -1643,7 +1643,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -1662,7 +1662,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tripletGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tripletGridDiv11);
@@ -1674,7 +1674,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tripletGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tripletGridDiv21);
@@ -1686,7 +1686,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement31.type = "number";
         multiNumEntryElement31.style.height = "18%";
         multiNumEntryElement31.style.width = "100%";
-        multiNumEntryElement31.style.backgroundColor = "#253f52";
+        multiNumEntryElement31.style.backgroundColor = "#8094A6";
         multiNumEntryElement31.style.margin = "0px 0px";
         tripletGridDiv31.appendChild(multiNumEntryElement31);
         multiNumEntry1.appendChild(tripletGridDiv31);
@@ -1700,7 +1700,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tripletGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tripletGridDiv12);
@@ -1712,7 +1712,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tripletGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tripletGridDiv22);
@@ -1724,7 +1724,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement32.type = "number";
         multiNumEntryElement32.style.height = "18%";
         multiNumEntryElement32.style.width = "100%";
-        multiNumEntryElement32.style.backgroundColor = "#253f52";
+        multiNumEntryElement32.style.backgroundColor = "#8094A6";
         multiNumEntryElement32.style.margin = "0px 0px";
         tripletGridDiv32.appendChild(multiNumEntryElement32);
         multiNumEntry2.appendChild(tripletGridDiv32);
@@ -1738,7 +1738,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement13.type = "number";
         multiNumEntryElement13.style.height = "18%";
         multiNumEntryElement13.style.width = "100%";
-        multiNumEntryElement13.style.backgroundColor = "#253f52";
+        multiNumEntryElement13.style.backgroundColor = "#8094A6";
         multiNumEntryElement13.style.margin = "0px 0px";
         tripletGridDiv13.appendChild(multiNumEntryElement13);
         multiNumEntry3.appendChild(tripletGridDiv13);
@@ -1750,7 +1750,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement23.type = "number";
         multiNumEntryElement23.style.height = "18%";
         multiNumEntryElement23.style.width = "100%";
-        multiNumEntryElement23.style.backgroundColor = "#253f52";
+        multiNumEntryElement23.style.backgroundColor = "#8094A6";
         multiNumEntryElement23.style.margin = "0px 0px";
         tripletGridDiv23.appendChild(multiNumEntryElement23);
         multiNumEntry3.appendChild(tripletGridDiv23);
@@ -1762,7 +1762,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement33.type = "number";
         multiNumEntryElement33.style.height = "18%";
         multiNumEntryElement33.style.width = "100%";
-        multiNumEntryElement33.style.backgroundColor = "#253f52";
+        multiNumEntryElement33.style.backgroundColor = "#8094A6";
         multiNumEntryElement33.style.margin = "0px 0px";
         tripletGridDiv33.appendChild(multiNumEntryElement33);
         multiNumEntry3.appendChild(tripletGridDiv33);
@@ -1775,7 +1775,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -1793,7 +1793,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -1811,7 +1811,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -1829,7 +1829,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -1839,7 +1839,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -1849,7 +1849,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -1859,7 +1859,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -1918,7 +1918,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -1935,7 +1935,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -1952,7 +1952,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -1969,7 +1969,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -1988,7 +1988,7 @@ enterButton1.onclick = function() {
         numEntryElement5.type = "number";
         numEntryElement5.style.height = "100%";
         numEntryElement5.style.width = "100%";
-        numEntryElement5.style.backgroundColor = "#253f52";
+        numEntryElement5.style.backgroundColor = "#8094A6";
         numEntryElement5.style.margin = "0px 0px";
         textEntry1.appendChild(numEntryElement5);
 
@@ -1998,7 +1998,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -2008,7 +2008,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -2018,7 +2018,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
 
@@ -2028,7 +2028,7 @@ enterButton1.onclick = function() {
         numEntryElement4.type = "number";
         numEntryElement4.style.height = "100%";
         numEntryElement4.style.width = "100%";
-        numEntryElement4.style.backgroundColor = "#253f52";
+        numEntryElement4.style.backgroundColor = "#8094A6";
         numEntryElement4.style.margin = "0px 0px";
         numEntry4.appendChild(numEntryElement4);
 
@@ -2038,7 +2038,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -2056,7 +2056,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -2074,7 +2074,7 @@ enterButton1.onclick = function() {
         selectElement11.id = "dropdown11";
         selectElement11.style.height = "28px";
         selectElement11.style.width = "100%";
-        selectElement11.style.backgroundColor = "#253f52";
+        selectElement11.style.backgroundColor = "#8094A6";
         selectElement11.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength11; i++) {
@@ -2092,7 +2092,7 @@ enterButton1.onclick = function() {
         selectElement12.id = "dropdown12";
         selectElement12.style.height = "28px";
         selectElement12.style.width = "100%";
-        selectElement12.style.backgroundColor = "#253f52";
+        selectElement12.style.backgroundColor = "#8094A6";
         selectElement12.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength12; i++) {
@@ -2112,7 +2112,7 @@ enterButton1.onclick = function() {
         selectElement13.style.gridRow = "1 / 2";
         selectElement13.style.height = "28px";
         selectElement13.style.width = "100%";
-        selectElement13.style.backgroundColor = "#253f52";
+        selectElement13.style.backgroundColor = "#8094A6";
         selectElement13.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength13; i++) {
@@ -2130,7 +2130,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -2148,7 +2148,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -2166,7 +2166,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -2184,7 +2184,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -2202,7 +2202,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -2212,7 +2212,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -2222,7 +2222,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -2232,7 +2232,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -2291,7 +2291,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -2308,7 +2308,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -2325,7 +2325,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -2342,7 +2342,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -2362,7 +2362,7 @@ enterButton1.onclick = function() {
         selectElement13.style.gridRow = "1 / 2";
         selectElement13.style.height = "28px";
         selectElement13.style.width = "100%";
-        selectElement13.style.backgroundColor = "#253f52";
+        selectElement13.style.backgroundColor = "#8094A6";
         selectElement13.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength13; i++) {
@@ -2380,7 +2380,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -2390,7 +2390,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -2400,7 +2400,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -2418,7 +2418,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -2436,7 +2436,7 @@ enterButton1.onclick = function() {
         selectElement11.id = "dropdown11";
         selectElement11.style.height = "28px";
         selectElement11.style.width = "100%";
-        selectElement11.style.backgroundColor = "#253f52";
+        selectElement11.style.backgroundColor = "#8094A6";
         selectElement11.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength11; i++) {
@@ -2454,7 +2454,7 @@ enterButton1.onclick = function() {
         selectElement12.id = "dropdown12";
         selectElement12.style.height = "28px";
         selectElement12.style.width = "100%";
-        selectElement12.style.backgroundColor = "#253f52";
+        selectElement12.style.backgroundColor = "#8094A6";
         selectElement12.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength12; i++) {
@@ -2475,7 +2475,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tupleGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tupleGridDiv11);
@@ -2487,7 +2487,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tupleGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tupleGridDiv21);
@@ -2501,7 +2501,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tupleGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tupleGridDiv12);
@@ -2513,7 +2513,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tupleGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tupleGridDiv22);
@@ -2527,7 +2527,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement13.type = "number";
         multiNumEntryElement13.style.height = "18%";
         multiNumEntryElement13.style.width = "100%";
-        multiNumEntryElement13.style.backgroundColor = "#253f52";
+        multiNumEntryElement13.style.backgroundColor = "#8094A6";
         multiNumEntryElement13.style.margin = "0px 0px";
         tupleGridDiv13.appendChild(multiNumEntryElement13);
         multiNumEntry3.appendChild(tupleGridDiv13);
@@ -2539,7 +2539,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement23.type = "number";
         multiNumEntryElement23.style.height = "18%";
         multiNumEntryElement23.style.width = "100%";
-        multiNumEntryElement23.style.backgroundColor = "#253f52";
+        multiNumEntryElement23.style.backgroundColor = "#8094A6";
         multiNumEntryElement23.style.margin = "0px 0px";
         tupleGridDiv23.appendChild(multiNumEntryElement23);
         multiNumEntry3.appendChild(tupleGridDiv23);
@@ -2550,7 +2550,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -2568,7 +2568,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -2586,7 +2586,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -2604,7 +2604,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -2622,7 +2622,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -2632,7 +2632,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -2642,7 +2642,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -2652,7 +2652,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -2705,7 +2705,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -2722,7 +2722,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -2739,7 +2739,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -2756,7 +2756,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -2774,7 +2774,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -2784,7 +2784,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -2802,7 +2802,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -2823,7 +2823,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tupleGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tupleGridDiv11);
@@ -2835,7 +2835,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tupleGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tupleGridDiv21);
@@ -2849,7 +2849,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tupleGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tupleGridDiv12);
@@ -2861,7 +2861,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tupleGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tupleGridDiv22);
@@ -2875,7 +2875,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement13.type = "number";
         multiNumEntryElement13.style.height = "18%";
         multiNumEntryElement13.style.width = "100%";
-        multiNumEntryElement13.style.backgroundColor = "#253f52";
+        multiNumEntryElement13.style.backgroundColor = "#8094A6";
         multiNumEntryElement13.style.margin = "0px 0px";
         tupleGridDiv13.appendChild(multiNumEntryElement13);
         multiNumEntry3.appendChild(tupleGridDiv13);
@@ -2887,7 +2887,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement23.type = "number";
         multiNumEntryElement23.style.height = "18%";
         multiNumEntryElement23.style.width = "100%";
-        multiNumEntryElement23.style.backgroundColor = "#253f52";
+        multiNumEntryElement23.style.backgroundColor = "#8094A6";
         multiNumEntryElement23.style.margin = "0px 0px";
         tupleGridDiv23.appendChild(multiNumEntryElement23);
         multiNumEntry3.appendChild(tupleGridDiv23);
@@ -2898,7 +2898,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -2916,7 +2916,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -2934,7 +2934,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -2952,7 +2952,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -2970,7 +2970,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -2980,7 +2980,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -2990,7 +2990,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -3000,7 +3000,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -3053,7 +3053,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -3070,7 +3070,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -3087,7 +3087,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -3104,7 +3104,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -3123,7 +3123,7 @@ enterButton1.onclick = function() {
         numEntryElement5.type = "number";
         numEntryElement5.style.height = "100%";
         numEntryElement5.style.width = "100%";
-        numEntryElement5.style.backgroundColor = "#253f52";
+        numEntryElement5.style.backgroundColor = "#8094A6";
         numEntryElement5.style.margin = "0px 0px";
         textEntry1.appendChild(numEntryElement5);
 
@@ -3133,7 +3133,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -3143,7 +3143,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -3153,7 +3153,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
 
@@ -3163,7 +3163,7 @@ enterButton1.onclick = function() {
         numEntryElement4.type = "number";
         numEntryElement4.style.height = "100%";
         numEntryElement4.style.width = "100%";
-        numEntryElement4.style.backgroundColor = "#253f52";
+        numEntryElement4.style.backgroundColor = "#8094A6";
         numEntryElement4.style.margin = "0px 0px";
         numEntry4.appendChild(numEntryElement4);
 
@@ -3173,7 +3173,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -3191,7 +3191,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -3209,7 +3209,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -3227,7 +3227,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -3245,7 +3245,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -3263,7 +3263,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -3281,7 +3281,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -3291,7 +3291,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -3301,7 +3301,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -3311,7 +3311,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -3364,7 +3364,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -3381,7 +3381,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -3398,7 +3398,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -3415,7 +3415,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -3433,7 +3433,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -3443,7 +3443,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -3461,7 +3461,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -3482,7 +3482,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tupleGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tupleGridDiv11);
@@ -3494,7 +3494,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tupleGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tupleGridDiv21);
@@ -3508,7 +3508,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tupleGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tupleGridDiv12);
@@ -3520,7 +3520,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tupleGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tupleGridDiv22);
@@ -3534,7 +3534,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement13.type = "number";
         multiNumEntryElement13.style.height = "18%";
         multiNumEntryElement13.style.width = "100%";
-        multiNumEntryElement13.style.backgroundColor = "#253f52";
+        multiNumEntryElement13.style.backgroundColor = "#8094A6";
         multiNumEntryElement13.style.margin = "0px 0px";
         tupleGridDiv13.appendChild(multiNumEntryElement13);
         multiNumEntry3.appendChild(tupleGridDiv13);
@@ -3546,7 +3546,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement23.type = "number";
         multiNumEntryElement23.style.height = "18%";
         multiNumEntryElement23.style.width = "100%";
-        multiNumEntryElement23.style.backgroundColor = "#253f52";
+        multiNumEntryElement23.style.backgroundColor = "#8094A6";
         multiNumEntryElement23.style.margin = "0px 0px";
         tupleGridDiv23.appendChild(multiNumEntryElement23);
         multiNumEntry3.appendChild(tupleGridDiv23);
@@ -3560,7 +3560,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement14.type = "number";
         multiNumEntryElement14.style.height = "18%";
         multiNumEntryElement14.style.width = "100%";
-        multiNumEntryElement14.style.backgroundColor = "#253f52";
+        multiNumEntryElement14.style.backgroundColor = "#8094A6";
         multiNumEntryElement14.style.margin = "0px 0px";
         tupleGridDiv14.appendChild(multiNumEntryElement14);
         multiNumEntry4.appendChild(tupleGridDiv14);
@@ -3572,7 +3572,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement24.type = "number";
         multiNumEntryElement24.style.height = "18%";
         multiNumEntryElement24.style.width = "100%";
-        multiNumEntryElement24.style.backgroundColor = "#253f52";
+        multiNumEntryElement24.style.backgroundColor = "#8094A6";
         multiNumEntryElement24.style.margin = "0px 0px";
         tupleGridDiv24.appendChild(multiNumEntryElement24);
         multiNumEntry4.appendChild(tupleGridDiv24);
@@ -3583,7 +3583,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -3601,7 +3601,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -3619,7 +3619,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -3637,7 +3637,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -3655,7 +3655,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -3665,7 +3665,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -3675,7 +3675,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -3685,7 +3685,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -3738,7 +3738,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -3755,7 +3755,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -3772,7 +3772,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -3789,7 +3789,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -3807,7 +3807,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -3817,7 +3817,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -3835,7 +3835,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -3856,7 +3856,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tripletGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tripletGridDiv11);
@@ -3868,7 +3868,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tripletGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tripletGridDiv21);
@@ -3880,7 +3880,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement31.type = "number";
         multiNumEntryElement31.style.height = "18%";
         multiNumEntryElement31.style.width = "100%";
-        multiNumEntryElement31.style.backgroundColor = "#253f52";
+        multiNumEntryElement31.style.backgroundColor = "#8094A6";
         multiNumEntryElement31.style.margin = "0px 0px";
         tripletGridDiv31.appendChild(multiNumEntryElement31);
         multiNumEntry1.appendChild(tripletGridDiv31);
@@ -3894,7 +3894,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tripletGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tripletGridDiv12);
@@ -3906,7 +3906,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tripletGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tripletGridDiv22);
@@ -3918,7 +3918,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement32.type = "number";
         multiNumEntryElement32.style.height = "18%";
         multiNumEntryElement32.style.width = "100%";
-        multiNumEntryElement32.style.backgroundColor = "#253f52";
+        multiNumEntryElement32.style.backgroundColor = "#8094A6";
         multiNumEntryElement32.style.margin = "0px 0px";
         tripletGridDiv32.appendChild(multiNumEntryElement32);
         multiNumEntry2.appendChild(tripletGridDiv32);
@@ -3932,7 +3932,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement13.type = "number";
         multiNumEntryElement13.style.height = "18%";
         multiNumEntryElement13.style.width = "100%";
-        multiNumEntryElement13.style.backgroundColor = "#253f52";
+        multiNumEntryElement13.style.backgroundColor = "#8094A6";
         multiNumEntryElement13.style.margin = "0px 0px";
         tripletGridDiv13.appendChild(multiNumEntryElement13);
         multiNumEntry3.appendChild(tripletGridDiv13);
@@ -3944,7 +3944,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement23.type = "number";
         multiNumEntryElement23.style.height = "18%";
         multiNumEntryElement23.style.width = "100%";
-        multiNumEntryElement23.style.backgroundColor = "#253f52";
+        multiNumEntryElement23.style.backgroundColor = "#8094A6";
         multiNumEntryElement23.style.margin = "0px 0px";
         tripletGridDiv23.appendChild(multiNumEntryElement23);
         multiNumEntry3.appendChild(tripletGridDiv23);
@@ -3956,7 +3956,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement33.type = "number";
         multiNumEntryElement33.style.height = "18%";
         multiNumEntryElement33.style.width = "100%";
-        multiNumEntryElement33.style.backgroundColor = "#253f52";
+        multiNumEntryElement33.style.backgroundColor = "#8094A6";
         multiNumEntryElement33.style.margin = "0px 0px";
         tripletGridDiv33.appendChild(multiNumEntryElement33);
         multiNumEntry3.appendChild(tripletGridDiv33);
@@ -3970,7 +3970,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement14.type = "number";
         multiNumEntryElement14.style.height = "18%";
         multiNumEntryElement14.style.width = "100%";
-        multiNumEntryElement14.style.backgroundColor = "#253f52";
+        multiNumEntryElement14.style.backgroundColor = "#8094A6";
         multiNumEntryElement14.style.margin = "0px 0px";
         tripletGridDiv14.appendChild(multiNumEntryElement14);
         multiNumEntry4.appendChild(tripletGridDiv14);
@@ -3982,7 +3982,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement24.type = "number";
         multiNumEntryElement24.style.height = "18%";
         multiNumEntryElement24.style.width = "100%";
-        multiNumEntryElement24.style.backgroundColor = "#253f52";
+        multiNumEntryElement24.style.backgroundColor = "#8094A6";
         multiNumEntryElement24.style.margin = "0px 0px";
         tripletGridDiv24.appendChild(multiNumEntryElement24);
         multiNumEntry4.appendChild(tripletGridDiv24);
@@ -3994,7 +3994,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement34.type = "number";
         multiNumEntryElement34.style.height = "18%";
         multiNumEntryElement34.style.width = "100%";
-        multiNumEntryElement34.style.backgroundColor = "#253f52";
+        multiNumEntryElement34.style.backgroundColor = "#8094A6";
         multiNumEntryElement34.style.margin = "0px 0px";
         tripletGridDiv34.appendChild(multiNumEntryElement34);
         multiNumEntry4.appendChild(tripletGridDiv34);
@@ -4005,7 +4005,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -4023,7 +4023,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -4041,7 +4041,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -4059,7 +4059,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -4077,7 +4077,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -4087,7 +4087,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -4097,7 +4097,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -4107,7 +4107,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -4122,7 +4122,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -4139,7 +4139,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -4157,7 +4157,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -4167,7 +4167,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -4177,7 +4177,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -4187,7 +4187,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -4197,7 +4197,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -4207,7 +4207,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -4222,7 +4222,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -4239,7 +4239,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -4260,7 +4260,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tupleGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tupleGridDiv11);
@@ -4272,7 +4272,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tupleGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tupleGridDiv21);
@@ -4286,7 +4286,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tupleGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tupleGridDiv12);
@@ -4298,7 +4298,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tupleGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tupleGridDiv22);        
@@ -4309,7 +4309,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -4319,7 +4319,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -4329,7 +4329,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -4339,7 +4339,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -4354,7 +4354,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -4371,7 +4371,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -4392,7 +4392,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tripletGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tripletGridDiv11);
@@ -4404,7 +4404,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tripletGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tripletGridDiv21);
@@ -4416,7 +4416,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement31.type = "number";
         multiNumEntryElement31.style.height = "18%";
         multiNumEntryElement31.style.width = "100%";
-        multiNumEntryElement31.style.backgroundColor = "#253f52";
+        multiNumEntryElement31.style.backgroundColor = "#8094A6";
         multiNumEntryElement31.style.margin = "0px 0px";
         tripletGridDiv31.appendChild(multiNumEntryElement31);
         multiNumEntry1.appendChild(tripletGridDiv31);
@@ -4430,7 +4430,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tripletGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tripletGridDiv12);
@@ -4442,7 +4442,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tripletGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tripletGridDiv22);
@@ -4454,7 +4454,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement32.type = "number";
         multiNumEntryElement32.style.height = "18%";
         multiNumEntryElement32.style.width = "100%";
-        multiNumEntryElement32.style.backgroundColor = "#253f52";
+        multiNumEntryElement32.style.backgroundColor = "#8094A6";
         multiNumEntryElement32.style.margin = "0px 0px";
         tripletGridDiv32.appendChild(multiNumEntryElement32);
         multiNumEntry2.appendChild(tripletGridDiv32);
@@ -4465,7 +4465,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -4475,7 +4475,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -4485,7 +4485,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -4495,7 +4495,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -4530,7 +4530,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -4548,7 +4548,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -4558,7 +4558,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -4568,7 +4568,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -4578,7 +4578,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -4613,7 +4613,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -4631,7 +4631,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -4641,7 +4641,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -4651,7 +4651,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -4661,7 +4661,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -4696,7 +4696,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -4714,7 +4714,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -4724,7 +4724,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -4734,7 +4734,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -4744,7 +4744,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -4759,7 +4759,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -4776,7 +4776,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -4794,7 +4794,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -4804,7 +4804,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -4814,7 +4814,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -4824,7 +4824,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -4834,7 +4834,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -4844,7 +4844,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -4859,7 +4859,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -4876,7 +4876,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -4897,7 +4897,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tupleGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tupleGridDiv11);
@@ -4909,7 +4909,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tupleGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tupleGridDiv21);
@@ -4923,7 +4923,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tupleGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tupleGridDiv12);
@@ -4935,7 +4935,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tupleGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tupleGridDiv22);
@@ -4946,7 +4946,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -4956,7 +4956,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -4966,7 +4966,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -4976,7 +4976,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -4991,7 +4991,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -5008,7 +5008,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -5029,7 +5029,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tripletGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tripletGridDiv11);
@@ -5041,7 +5041,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tripletGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tripletGridDiv21);
@@ -5053,7 +5053,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement31.type = "number";
         multiNumEntryElement31.style.height = "18%";
         multiNumEntryElement31.style.width = "100%";
-        multiNumEntryElement31.style.backgroundColor = "#253f52";
+        multiNumEntryElement31.style.backgroundColor = "#8094A6";
         multiNumEntryElement31.style.margin = "0px 0px";
         tripletGridDiv31.appendChild(multiNumEntryElement31);
         multiNumEntry1.appendChild(tripletGridDiv31);
@@ -5067,7 +5067,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tripletGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tripletGridDiv12);
@@ -5079,7 +5079,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tripletGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tripletGridDiv22);
@@ -5091,7 +5091,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement32.type = "number";
         multiNumEntryElement32.style.height = "18%";
         multiNumEntryElement32.style.width = "100%";
-        multiNumEntryElement32.style.backgroundColor = "#253f52";
+        multiNumEntryElement32.style.backgroundColor = "#8094A6";
         multiNumEntryElement32.style.margin = "0px 0px";
         tripletGridDiv32.appendChild(multiNumEntryElement32);
         multiNumEntry2.appendChild(tripletGridDiv32);
@@ -5102,7 +5102,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -5112,7 +5112,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -5122,7 +5122,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -5132,7 +5132,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -5145,7 +5145,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -5163,7 +5163,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -5173,7 +5173,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -5183,7 +5183,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -5193,7 +5193,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -5228,7 +5228,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -5246,7 +5246,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -5256,7 +5256,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -5266,7 +5266,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -5276,7 +5276,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -5311,7 +5311,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -5329,7 +5329,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -5339,7 +5339,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -5349,7 +5349,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -5359,7 +5359,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -5482,7 +5482,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -5499,7 +5499,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -5516,7 +5516,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -5533,7 +5533,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -5643,7 +5643,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -5653,7 +5653,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -5663,7 +5663,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
 
@@ -5673,7 +5673,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -5691,7 +5691,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -5709,7 +5709,7 @@ enterButton1.onclick = function() {
         selectElement11.id = "dropdown11";
         selectElement11.style.height = "28px";
         selectElement11.style.width = "100%";
-        selectElement11.style.backgroundColor = "#253f52";
+        selectElement11.style.backgroundColor = "#8094A6";
         selectElement11.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength11; i++) {
@@ -5727,7 +5727,7 @@ enterButton1.onclick = function() {
         selectElement12.id = "dropdown12";
         selectElement12.style.height = "28px";
         selectElement12.style.width = "100%";
-        selectElement12.style.backgroundColor = "#253f52";
+        selectElement12.style.backgroundColor = "#8094A6";
         selectElement12.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength12; i++) {
@@ -5745,7 +5745,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -5763,7 +5763,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -5781,7 +5781,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -5799,7 +5799,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -5817,7 +5817,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -5827,7 +5827,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -5837,7 +5837,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -5847,7 +5847,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -5970,7 +5970,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -5987,7 +5987,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -6004,7 +6004,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -6021,7 +6021,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -6131,7 +6131,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -6141,7 +6141,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -6151,7 +6151,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
 
@@ -6161,7 +6161,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -6179,7 +6179,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -6197,7 +6197,7 @@ enterButton1.onclick = function() {
         selectElement11.id = "dropdown11";
         selectElement11.style.height = "28px";
         selectElement11.style.width = "100%";
-        selectElement11.style.backgroundColor = "#253f52";
+        selectElement11.style.backgroundColor = "#8094A6";
         selectElement11.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength11; i++) {
@@ -6215,7 +6215,7 @@ enterButton1.onclick = function() {
         selectElement12.id = "dropdown12";
         selectElement12.style.height = "28px";
         selectElement12.style.width = "100%";
-        selectElement12.style.backgroundColor = "#253f52";
+        selectElement12.style.backgroundColor = "#8094A6";
         selectElement12.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength12; i++) {
@@ -6233,7 +6233,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -6251,7 +6251,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -6269,7 +6269,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -6287,7 +6287,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -6305,7 +6305,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -6315,7 +6315,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -6325,7 +6325,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -6335,7 +6335,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -6456,7 +6456,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -6473,7 +6473,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -6490,7 +6490,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -6507,7 +6507,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -6571,7 +6571,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -6581,7 +6581,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -6591,7 +6591,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
 
@@ -6601,7 +6601,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -6619,7 +6619,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -6637,7 +6637,7 @@ enterButton1.onclick = function() {
         selectElement11.id = "dropdown11";
         selectElement11.style.height = "28px";
         selectElement11.style.width = "100%";
-        selectElement11.style.backgroundColor = "#253f52";
+        selectElement11.style.backgroundColor = "#8094A6";
         selectElement11.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength11; i++) {
@@ -6655,7 +6655,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -6673,7 +6673,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -6691,7 +6691,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -6709,7 +6709,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -6727,7 +6727,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -6737,7 +6737,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -6747,7 +6747,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -6757,7 +6757,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -6768,7 +6768,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -6778,7 +6778,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -6788,7 +6788,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -6798,7 +6798,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -6808,7 +6808,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -6821,7 +6821,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -6839,7 +6839,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -6849,7 +6849,7 @@ enterButton1.onclick = function() {
         textEntryElement2.type = "text";
         textEntryElement2.style.height = "100%";
         textEntryElement2.style.width = "100%";
-        textEntryElement2.style.backgroundColor = "#253f52";
+        textEntryElement2.style.backgroundColor = "#8094A6";
         textEntryElement2.style.margin = "0px 0px";
         textEntry2.appendChild(textEntryElement2);
 
@@ -6859,7 +6859,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -6869,7 +6869,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -6879,7 +6879,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -6889,7 +6889,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -7016,7 +7016,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -7033,7 +7033,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -7050,7 +7050,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -7067,7 +7067,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength4; i++) {
@@ -7085,7 +7085,7 @@ enterButton1.onclick = function() {
         selectElement13.id = "dropdown13";
         selectElement13.style.height = "28px";
         selectElement13.style.width = "100%";
-        selectElement13.style.backgroundColor = "#253f52";
+        selectElement13.style.backgroundColor = "#8094A6";
         selectElement13.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength13; i++) {
@@ -7103,7 +7103,7 @@ enterButton1.onclick = function() {
         selectElement14.id = "dropdown14";
         selectElement14.style.height = "28px";
         selectElement14.style.width = "100%";
-        selectElement14.style.backgroundColor = "#253f52";
+        selectElement14.style.backgroundColor = "#8094A6";
         selectElement14.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength14; i++) {
@@ -7167,7 +7167,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -7177,7 +7177,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -7187,7 +7187,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
             
@@ -7197,7 +7197,7 @@ enterButton1.onclick = function() {
         numEntryElement4.type = "number";
         numEntryElement4.style.height = "100%";
         numEntryElement4.style.width = "100%";
-        numEntryElement4.style.backgroundColor = "#253f52";
+        numEntryElement4.style.backgroundColor = "#8094A6";
         numEntryElement4.style.margin = "0px 0px";
         numEntry4.appendChild(numEntryElement4);
 
@@ -7207,7 +7207,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -7225,7 +7225,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -7243,7 +7243,7 @@ enterButton1.onclick = function() {
         selectElement11.id = "dropdown11";
         selectElement11.style.height = "28px";
         selectElement11.style.width = "100%";
-        selectElement11.style.backgroundColor = "#253f52";
+        selectElement11.style.backgroundColor = "#8094A6";
         selectElement11.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength11; i++) {
@@ -7261,7 +7261,7 @@ enterButton1.onclick = function() {
         selectElement12.id = "dropdown12";
         selectElement12.style.height = "28px";
         selectElement12.style.width = "100%";
-        selectElement12.style.backgroundColor = "#253f52";
+        selectElement12.style.backgroundColor = "#8094A6";
         selectElement12.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength12; i++) {
@@ -7279,7 +7279,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -7296,7 +7296,7 @@ enterButton1.onclick = function() {
         numMultiNumEntryElement1.type = "number";
         numMultiNumEntryElement1.style.height = "100%";
         numMultiNumEntryElement1.style.width = "100%";
-        numMultiNumEntryElement1.style.backgroundColor = "#253f52";
+        numMultiNumEntryElement1.style.backgroundColor = "#8094A6";
         numMultiNumEntryElement1.style.margin = "0px 0px";
         multiNumEntry1.appendChild(numMultiNumEntryElement1);
 
@@ -7307,7 +7307,7 @@ enterButton1.onclick = function() {
         numMultiNumEntryElement2.type = "number";
         numMultiNumEntryElement2.style.height = "100%";
         numMultiNumEntryElement2.style.width = "100%";
-        numMultiNumEntryElement2.style.backgroundColor = "#253f52";
+        numMultiNumEntryElement2.style.backgroundColor = "#8094A6";
         numMultiNumEntryElement2.style.margin = "0px 0px";
         multiNumEntry2.appendChild(numMultiNumEntryElement2);
 
@@ -7320,7 +7320,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -7338,7 +7338,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -7356,7 +7356,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -7374,7 +7374,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -7384,7 +7384,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -7394,7 +7394,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -7404,7 +7404,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -7531,7 +7531,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -7548,7 +7548,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -7565,7 +7565,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -7582,7 +7582,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength4; i++) {
@@ -7599,7 +7599,7 @@ enterButton1.onclick = function() {
         selectElement13.id = "dropdown13"
         selectElement13.style.height = "28px";
         selectElement13.style.width = "100%";
-        selectElement13.style.backgroundColor = "#253f52";
+        selectElement13.style.backgroundColor = "#8094A6";
         selectElement13.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength13; i++) {
@@ -7616,7 +7616,7 @@ enterButton1.onclick = function() {
         selectElement14.id = "dropdown14"
         selectElement14.style.height = "28px";
         selectElement14.style.width = "100%";
-        selectElement14.style.backgroundColor = "#253f52";
+        selectElement14.style.backgroundColor = "#8094A6";
         selectElement14.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength14; i++) {
@@ -7680,7 +7680,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -7690,7 +7690,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -7700,7 +7700,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
 
@@ -7710,7 +7710,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -7728,7 +7728,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -7746,7 +7746,7 @@ enterButton1.onclick = function() {
         selectElement11.id = "dropdown11";
         selectElement11.style.height = "28px";
         selectElement11.style.width = "100%";
-        selectElement11.style.backgroundColor = "#253f52";
+        selectElement11.style.backgroundColor = "#8094A6";
         selectElement11.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength11; i++) {
@@ -7764,7 +7764,7 @@ enterButton1.onclick = function() {
         selectElement12.id = "dropdown12";
         selectElement12.style.height = "28px";
         selectElement12.style.width = "100%";
-        selectElement12.style.backgroundColor = "#253f52";
+        selectElement12.style.backgroundColor = "#8094A6";
         selectElement12.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength12; i++) {
@@ -7785,7 +7785,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tupleGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tupleGridDiv11);
@@ -7797,7 +7797,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tupleGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tupleGridDiv21);
@@ -7811,7 +7811,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tupleGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tupleGridDiv12);
@@ -7823,7 +7823,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tupleGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tupleGridDiv22);
@@ -7837,7 +7837,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement13.type = "number";
         multiNumEntryElement13.style.height = "18%";
         multiNumEntryElement13.style.width = "100%";
-        multiNumEntryElement13.style.backgroundColor = "#253f52";
+        multiNumEntryElement13.style.backgroundColor = "#8094A6";
         multiNumEntryElement13.style.margin = "0px 0px";
         tupleGridDiv13.appendChild(multiNumEntryElement13);
         multiNumEntry3.appendChild(tupleGridDiv13);
@@ -7849,7 +7849,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement23.type = "number";
         multiNumEntryElement23.style.height = "18%";
         multiNumEntryElement23.style.width = "100%";
-        multiNumEntryElement23.style.backgroundColor = "#253f52";
+        multiNumEntryElement23.style.backgroundColor = "#8094A6";
         multiNumEntryElement23.style.margin = "0px 0px";
         tupleGridDiv23.appendChild(multiNumEntryElement23);
         multiNumEntry3.appendChild(tupleGridDiv23);
@@ -7860,7 +7860,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -7878,7 +7878,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -7896,7 +7896,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -7914,7 +7914,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -7932,7 +7932,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -7942,7 +7942,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -7952,7 +7952,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -7962,7 +7962,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -8089,7 +8089,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -8106,7 +8106,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -8123,7 +8123,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -8140,7 +8140,7 @@ enterButton1.onclick = function() {
         selectElement4.id = "dropdown4";
         selectElement4.style.height = "28px";
         selectElement4.style.width = "100%";
-        selectElement4.style.backgroundColor = "#253f52";
+        selectElement4.style.backgroundColor = "#8094A6";
         selectElement4.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength4; i++) {
@@ -8157,7 +8157,7 @@ enterButton1.onclick = function() {
         selectElement13.id = "dropdown13"
         selectElement13.style.height = "28px";
         selectElement13.style.width = "100%";
-        selectElement13.style.backgroundColor = "#253f52";
+        selectElement13.style.backgroundColor = "#8094A6";
         selectElement13.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength13; i++) {
@@ -8174,7 +8174,7 @@ enterButton1.onclick = function() {
         selectElement14.id = "dropdown14"
         selectElement14.style.height = "28px";
         selectElement14.style.width = "100%";
-        selectElement14.style.backgroundColor = "#253f52";
+        selectElement14.style.backgroundColor = "#8094A6";
         selectElement14.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength14; i++) {
@@ -8238,7 +8238,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -8248,7 +8248,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -8258,7 +8258,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
 
@@ -8268,7 +8268,7 @@ enterButton1.onclick = function() {
         selectElement9.id = "dropdown9";
         selectElement9.style.height = "28px";
         selectElement9.style.width = "100%";
-        selectElement9.style.backgroundColor = "#253f52";
+        selectElement9.style.backgroundColor = "#8094A6";
         selectElement9.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength9; i++) {
@@ -8286,7 +8286,7 @@ enterButton1.onclick = function() {
         selectElement10.id = "dropdown10";
         selectElement10.style.height = "28px";
         selectElement10.style.width = "100%";
-        selectElement10.style.backgroundColor = "#253f52";
+        selectElement10.style.backgroundColor = "#8094A6";
         selectElement10.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength10; i++) {
@@ -8304,7 +8304,7 @@ enterButton1.onclick = function() {
         selectElement11.id = "dropdown11";
         selectElement11.style.height = "28px";
         selectElement11.style.width = "100%";
-        selectElement11.style.backgroundColor = "#253f52";
+        selectElement11.style.backgroundColor = "#8094A6";
         selectElement11.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength11; i++) {
@@ -8322,7 +8322,7 @@ enterButton1.onclick = function() {
         selectElement12.id = "dropdown12";
         selectElement12.style.height = "28px";
         selectElement12.style.width = "100%";
-        selectElement12.style.backgroundColor = "#253f52";
+        selectElement12.style.backgroundColor = "#8094A6";
         selectElement12.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength12; i++) {
@@ -8343,7 +8343,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement11.type = "number";
         multiNumEntryElement11.style.height = "18%";
         multiNumEntryElement11.style.width = "100%";
-        multiNumEntryElement11.style.backgroundColor = "#253f52";
+        multiNumEntryElement11.style.backgroundColor = "#8094A6";
         multiNumEntryElement11.style.margin = "0px 0px";
         tripletGridDiv11.appendChild(multiNumEntryElement11);
         multiNumEntry1.appendChild(tripletGridDiv11);
@@ -8355,7 +8355,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement21.type = "number";
         multiNumEntryElement21.style.height = "18%";
         multiNumEntryElement21.style.width = "100%";
-        multiNumEntryElement21.style.backgroundColor = "#253f52";
+        multiNumEntryElement21.style.backgroundColor = "#8094A6";
         multiNumEntryElement21.style.margin = "0px 0px";
         tripletGridDiv21.appendChild(multiNumEntryElement21);
         multiNumEntry1.appendChild(tripletGridDiv21);
@@ -8367,7 +8367,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement31.type = "number";
         multiNumEntryElement31.style.height = "18%";
         multiNumEntryElement31.style.width = "100%";
-        multiNumEntryElement31.style.backgroundColor = "#253f52";
+        multiNumEntryElement31.style.backgroundColor = "#8094A6";
         multiNumEntryElement31.style.margin = "0px 0px";
         tripletGridDiv31.appendChild(multiNumEntryElement31);
         multiNumEntry1.appendChild(tripletGridDiv31);
@@ -8381,7 +8381,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement12.type = "number";
         multiNumEntryElement12.style.height = "18%";
         multiNumEntryElement12.style.width = "100%";
-        multiNumEntryElement12.style.backgroundColor = "#253f52";
+        multiNumEntryElement12.style.backgroundColor = "#8094A6";
         multiNumEntryElement12.style.margin = "0px 0px";
         tripletGridDiv12.appendChild(multiNumEntryElement12);
         multiNumEntry2.appendChild(tripletGridDiv12);
@@ -8393,7 +8393,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement22.type = "number";
         multiNumEntryElement22.style.height = "18%";
         multiNumEntryElement22.style.width = "100%";
-        multiNumEntryElement22.style.backgroundColor = "#253f52";
+        multiNumEntryElement22.style.backgroundColor = "#8094A6";
         multiNumEntryElement22.style.margin = "0px 0px";
         tripletGridDiv22.appendChild(multiNumEntryElement22);
         multiNumEntry2.appendChild(tripletGridDiv22);
@@ -8405,7 +8405,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement32.type = "number";
         multiNumEntryElement32.style.height = "18%";
         multiNumEntryElement32.style.width = "100%";
-        multiNumEntryElement32.style.backgroundColor = "#253f52";
+        multiNumEntryElement32.style.backgroundColor = "#8094A6";
         multiNumEntryElement32.style.margin = "0px 0px";
         tripletGridDiv32.appendChild(multiNumEntryElement32);
         multiNumEntry2.appendChild(tripletGridDiv32);
@@ -8419,7 +8419,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement13.type = "number";
         multiNumEntryElement13.style.height = "18%";
         multiNumEntryElement13.style.width = "100%";
-        multiNumEntryElement13.style.backgroundColor = "#253f52";
+        multiNumEntryElement13.style.backgroundColor = "#8094A6";
         multiNumEntryElement13.style.margin = "0px 0px";
         tripletGridDiv13.appendChild(multiNumEntryElement13);
         multiNumEntry3.appendChild(tripletGridDiv13);
@@ -8431,7 +8431,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement23.type = "number";
         multiNumEntryElement23.style.height = "18%";
         multiNumEntryElement23.style.width = "100%";
-        multiNumEntryElement23.style.backgroundColor = "#253f52";
+        multiNumEntryElement23.style.backgroundColor = "#8094A6";
         multiNumEntryElement23.style.margin = "0px 0px";
         tripletGridDiv23.appendChild(multiNumEntryElement23);
         multiNumEntry3.appendChild(tripletGridDiv23);
@@ -8443,7 +8443,7 @@ enterButton1.onclick = function() {
         multiNumEntryElement33.type = "number";
         multiNumEntryElement33.style.height = "18%";
         multiNumEntryElement33.style.width = "100%";
-        multiNumEntryElement33.style.backgroundColor = "#253f52";
+        multiNumEntryElement33.style.backgroundColor = "#8094A6";
         multiNumEntryElement33.style.margin = "0px 0px";
         tripletGridDiv33.appendChild(multiNumEntryElement33);
         multiNumEntry3.appendChild(tripletGridDiv33);
@@ -8454,7 +8454,7 @@ enterButton1.onclick = function() {
         selectElement5.id = "dropdown5";
         selectElement5.style.height = "28px";
         selectElement5.style.width = "100%";
-        selectElement5.style.backgroundColor = "#253f52";
+        selectElement5.style.backgroundColor = "#8094A6";
         selectElement5.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength5; i++) {
@@ -8472,7 +8472,7 @@ enterButton1.onclick = function() {
         selectElement6.id = "dropdown6";
         selectElement6.style.height = "28px";
         selectElement6.style.width = "100%";
-        selectElement6.style.backgroundColor = "#253f52";
+        selectElement6.style.backgroundColor = "#8094A6";
         selectElement6.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength6; i++) {
@@ -8490,7 +8490,7 @@ enterButton1.onclick = function() {
         selectElement7.id = "dropdown7";
         selectElement7.style.height = "28px";
         selectElement7.style.width = "100%";
-        selectElement7.style.backgroundColor = "#253f52";
+        selectElement7.style.backgroundColor = "#8094A6";
         selectElement7.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength7; i++) {
@@ -8508,7 +8508,7 @@ enterButton1.onclick = function() {
         selectElement8.id = "dropdown8";
         selectElement8.style.height = "28px";
         selectElement8.style.width = "100%";
-        selectElement8.style.backgroundColor = "#253f52";
+        selectElement8.style.backgroundColor = "#8094A6";
         selectElement8.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength8; i++) {
@@ -8526,7 +8526,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -8536,7 +8536,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -8546,7 +8546,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -8556,7 +8556,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -8655,7 +8655,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -8711,7 +8711,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -8721,7 +8721,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -8731,7 +8731,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -8741,7 +8741,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -8752,7 +8752,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -8762,7 +8762,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -8772,7 +8772,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -8782,7 +8782,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -8792,7 +8792,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -8802,7 +8802,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -8812,7 +8812,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -8823,7 +8823,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -8833,7 +8833,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -8843,7 +8843,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -8853,7 +8853,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -8863,7 +8863,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -8876,7 +8876,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -8894,7 +8894,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -8904,7 +8904,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -8914,7 +8914,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -8924,7 +8924,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -8934,7 +8934,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -8947,7 +8947,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -8965,7 +8965,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -8975,7 +8975,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -8985,7 +8985,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -8995,7 +8995,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9005,7 +9005,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9016,7 +9016,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -9026,7 +9026,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -9036,7 +9036,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9046,7 +9046,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9056,7 +9056,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9066,7 +9066,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9077,7 +9077,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -9087,7 +9087,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -9097,7 +9097,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9107,7 +9107,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9117,7 +9117,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9127,7 +9127,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9138,7 +9138,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -9148,7 +9148,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -9158,7 +9158,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9168,7 +9168,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9178,7 +9178,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9188,7 +9188,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9199,7 +9199,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -9209,7 +9209,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -9219,7 +9219,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -9229,7 +9229,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9239,7 +9239,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9249,7 +9249,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9259,7 +9259,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9270,7 +9270,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -9280,7 +9280,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9290,7 +9290,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9300,7 +9300,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9310,7 +9310,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9323,7 +9323,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -9341,7 +9341,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9351,7 +9351,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9361,7 +9361,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9371,7 +9371,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9382,7 +9382,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -9392,7 +9392,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9402,7 +9402,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9412,7 +9412,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9422,7 +9422,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9433,7 +9433,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -9443,7 +9443,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9453,7 +9453,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9463,7 +9463,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9473,7 +9473,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9484,7 +9484,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -9494,7 +9494,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9504,7 +9504,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9514,7 +9514,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9524,7 +9524,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9538,7 +9538,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -9548,7 +9548,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9558,7 +9558,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9568,7 +9568,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9578,7 +9578,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9592,7 +9592,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -9602,7 +9602,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9612,7 +9612,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9622,7 +9622,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9632,7 +9632,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9643,7 +9643,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -9653,7 +9653,7 @@ enterButton1.onclick = function() {
         numEntryElement2.type = "number";
         numEntryElement2.style.height = "100%";
         numEntryElement2.style.width = "100%";
-        numEntryElement2.style.backgroundColor = "#253f52";
+        numEntryElement2.style.backgroundColor = "#8094A6";
         numEntryElement2.style.margin = "0px 0px";
         numEntry2.appendChild(numEntryElement2);
 
@@ -9663,7 +9663,7 @@ enterButton1.onclick = function() {
         numEntryElement3.type = "number";
         numEntryElement3.style.height = "100%";
         numEntryElement3.style.width = "100%";
-        numEntryElement3.style.backgroundColor = "#253f52";
+        numEntryElement3.style.backgroundColor = "#8094A6";
         numEntryElement3.style.margin = "0px 0px";
         numEntry3.appendChild(numEntryElement3);
 
@@ -9673,7 +9673,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9683,7 +9683,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9693,7 +9693,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9703,7 +9703,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9714,7 +9714,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -9724,7 +9724,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9734,7 +9734,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9744,7 +9744,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9754,7 +9754,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9765,7 +9765,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -9775,7 +9775,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9785,7 +9785,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9795,7 +9795,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9805,7 +9805,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9821,7 +9821,7 @@ enterButton1.onclick = function() {
         selectElement1.id = "dropdown1";
         selectElement1.style.height = "28px";
         selectElement1.style.width = "100%";
-        selectElement1.style.backgroundColor = "#253f52";
+        selectElement1.style.backgroundColor = "#8094A6";
         selectElement1.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength1; i++) {
@@ -9838,7 +9838,7 @@ enterButton1.onclick = function() {
         selectElement2.id = "dropdown2";
         selectElement2.style.height = "28px";
         selectElement2.style.width = "100%";
-        selectElement2.style.backgroundColor = "#253f52";
+        selectElement2.style.backgroundColor = "#8094A6";
         selectElement2.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength2; i++) {
@@ -9855,7 +9855,7 @@ enterButton1.onclick = function() {
         selectElement3.id = "dropdown3";
         selectElement3.style.height = "28px";
         selectElement3.style.width = "100%";
-        selectElement3.style.backgroundColor = "#253f52";
+        selectElement3.style.backgroundColor = "#8094A6";
         selectElement3.style.margin = "0px 0px";
 
         for (var i = 0; i < optionsListLength3; i++) {
@@ -9873,7 +9873,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -9883,7 +9883,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9893,7 +9893,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9903,7 +9903,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9913,7 +9913,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9924,7 +9924,7 @@ enterButton1.onclick = function() {
         numEntryElement1.type = "number";
         numEntryElement1.style.height = "100%";
         numEntryElement1.style.width = "100%";
-        numEntryElement1.style.backgroundColor = "#253f52";
+        numEntryElement1.style.backgroundColor = "#8094A6";
         numEntryElement1.style.margin = "0px 0px";
         numEntry1.appendChild(numEntryElement1);
 
@@ -9934,7 +9934,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9944,7 +9944,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -9954,7 +9954,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -9964,7 +9964,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;
@@ -9975,7 +9975,7 @@ enterButton1.onclick = function() {
         textEntryElement1.type = "text";
         textEntryElement1.style.height = "100%";
         textEntryElement1.style.width = "100%";
-        textEntryElement1.style.backgroundColor = "#253f52";
+        textEntryElement1.style.backgroundColor = "#8094A6";
         textEntryElement1.style.margin = "0px 0px";
         textEntry1.appendChild(textEntryElement1);
 
@@ -9985,7 +9985,7 @@ enterButton1.onclick = function() {
         kwargsElement1.type = "text";
         kwargsElement1.style.height = "100%";
         kwargsElement1.style.width = "100%";
-        kwargsElement1.style.backgroundColor = "#253f52";
+        kwargsElement1.style.backgroundColor = "#8094A6";
         kwargsElement1.style.margin = "0px 0px";
         kwargs1.appendChild(kwargsElement1);
 
@@ -9995,7 +9995,7 @@ enterButton1.onclick = function() {
         kwargsElement2.type = "text";
         kwargsElement2.style.height = "100%";
         kwargsElement2.style.width = "100%";
-        kwargsElement2.style.backgroundColor = "#253f52";
+        kwargsElement2.style.backgroundColor = "#8094A6";
         kwargsElement2.style.margin = "0px 0px";
         kwargs2.appendChild(kwargsElement2);
 
@@ -10005,7 +10005,7 @@ enterButton1.onclick = function() {
         kwargsElement3.type = "text";
         kwargsElement3.style.height = "100%";
         kwargsElement3.style.width = "100%";
-        kwargsElement3.style.backgroundColor = "#253f52";
+        kwargsElement3.style.backgroundColor = "#8094A6";
         kwargsElement3.style.margin = "0px 0px";
         kwargs3.appendChild(kwargsElement3);
 
@@ -10015,7 +10015,7 @@ enterButton1.onclick = function() {
         kwargsElement4.type = "text";
         kwargsElement4.style.height = "100%";
         kwargsElement4.style.width = "100%";
-        kwargsElement4.style.backgroundColor = "#253f52";
+        kwargsElement4.style.backgroundColor = "#8094A6";
         kwargsElement4.style.margin = "0px 0px";
         kwargs4.appendChild(kwargsElement4);
         break;

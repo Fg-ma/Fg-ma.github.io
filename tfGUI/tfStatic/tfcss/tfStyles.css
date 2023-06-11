@@ -11,7 +11,7 @@
 body {
   margin: 0 auto;
   height: 100vh;
-  background-color: #0c151b;
+  background-color: #011526;
   overflow-x: hidden;
 }
 
@@ -33,7 +33,7 @@ select {
 button {
   height: 32px;
   width: 10%;
-  background-color: #253f52;
+  background-color: #8094A6;
   border-radius: 10px;
   font-family: bodyFont;
   font-size: 25px;
@@ -50,7 +50,7 @@ input {
 #storage {
   height: 200px;
   width: 96%;
-  background-color: #253f52;
+  background-color: #8094A6;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: -3px;
@@ -75,7 +75,7 @@ input {
   width: 97%;
   margin-bottom: 1.5%;
   margin-left: 1.5%;
-  background-color: #253f52;
+  background-color: #8094A6;
   border: 4px solid white;
   border-radius: 10px;
 }

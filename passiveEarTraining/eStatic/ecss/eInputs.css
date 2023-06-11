@@ -6,8 +6,8 @@
 #vol {
     right: 5px;
     height: 10px;
-    background-color: #0c151b;
-    accent-color: #253f52;
+    background-color: #011526;
+    accent-color: #8094A6;
     writing-mode: bt-lr;
     margin-top: 5%;
 }
@@ -67,7 +67,7 @@ div#difficultyButtons button:hover {
 
 div#difficultyButtons button:disabled {
     border: 2px solid #F5F5F5;
-    background-color: #0c151b;
+    background-color: #011526;
     color: #F5F5F5;
 }
 
@@ -76,7 +76,7 @@ div#difficultyButtons button:disabled {
     margin-right: 2%;
     height: 50px;
     width: 31%;
-    background-color: #253f52;
+    background-color: #8094A6;
     float: left;
 }
 
@@ -84,7 +84,7 @@ div#difficultyButtons button:disabled {
     margin-right: 2%;
     height: 50px;
     width: 31%;
-    background-color: #253f52;
+    background-color: #8094A6;
     float: left;
 }
 
@@ -92,7 +92,7 @@ div#difficultyButtons button:disabled {
     margin-right: 1.5%;
     height: 50px;
     width: 31%;
-    background-color: #253f52;
+    background-color: #8094A6;
     float: left;
 }
 
@@ -103,7 +103,7 @@ div#difficultyButtons button:disabled {
     margin-bottom: 15px;
     height: 35px;
     width: 33.33%;
-    background-color: #253f52;
+    background-color: #8094A6;
     font-family: bodyFont;
     font-size: 18px;
 }
@@ -131,6 +131,6 @@ div.numTimesRepeat input:hover {
     font-size: 22px;
     height: 35px;
     width: 97%;
-    background-color: #253f52;
+    background-color: #8094A6;
     font-family: bodyFont;
 }

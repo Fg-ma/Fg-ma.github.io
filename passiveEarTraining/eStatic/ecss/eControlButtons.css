@@ -21,33 +21,33 @@ div.controlButtons button:hover {
 #backButton {
     height: 50px;
     width: 10%;
-    background-color: #253f52;
+    background-color: #8094A6;
 }
 
 #stopButton {
     margin-left: 10px;
     height: 50px;
     width: 12%;
-    background-color: #253f52;
+    background-color: #8094A6;
 }
 
 #startButton {
     margin-left: 10px;
     height: 50px;
     width: 15%;
-    background-color: #253f52;
+    background-color: #8094A6;
 }
 
 #loopButton {
     margin-left: 10px;
     height: 50px;
     width: 12%;
-    background-color: #253f52;
+    background-color: #8094A6;
 }
 
 #nextButton {
     margin-left: 10px;
     height: 50px;
     width: 10%;
-    background-color: #253f52;
+    background-color: #8094A6;
 }
