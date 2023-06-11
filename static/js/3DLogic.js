@@ -26,30 +26,20 @@ scene.add( light );
 // Creates container for objects
 const objects = [];
 
-// Checks if any cubes are overlaping in the x-direction
-function xCheckOverlap(xPosition) {
+// Checks if any cubes are overlaping
+function checkOverlap(objects) {
     for (var j in objects) {
-        var xCheck = xPosition-objects[j].position.x;
-        if (-10 < xCheck < 0) {
-            return xPosition - (Math.random() * 5);
-        } else if (0 < xCheck < 10) {
-            return xPosition + (Math.random() * 5);
-        } else {
-            return xPosition;
-        };
-    };
-};
-
-// Checks if any cubes are overlaping in the y-direction
-function yCheckOverlap(yPosition) {
-    for (var j in objects) {
-        var yCheck = yPosition-objects[j].position.y;
-        if (-10 < yCheck < 0) {
-            return yPosition - (Math.random() * 5);
-        } else if (0 < yCheck < 10) {
-            return yPosition + (Math.random() * 5);
-        } else {
-            return yPosition;
+        var xFirstObjectPoistion = objects[j].position.x;
+        var yFirstObjectPoistion = objects[j].position.y;
+        for (var k in objects){
+            var xSecondObjectPoistion = objects[k].position.x;
+            var ySecondObjectPoistion = objects[k].position.y;
+            var distance = sqrt(pow((xSecondObjectPoistion - xFirstObjectPoistion), 2) + 
+            pow((ySecondObjectPoistion - yFirstObjectPoistion), 2))
+            if (0 < distance < 1) {
+                xSecondObjectPoistion += 1;
+                ySecondObjectPoistion += 1;
+            };
         };
     };
 };
@@ -89,7 +79,7 @@ new THREE.OBJLoader()
         object.scale.y = scale;
         object.scale.z = scale;
 
-        // Adds object to the scene and teh objects array
+        // Adds object to the scene and the objects array
         scene.add(object);
         objects.push(object);
 
@@ -99,10 +89,8 @@ new THREE.OBJLoader()
 
             var xPosition = (Math.random() * 15) - 10;
             var yPosition = (Math.random() * 15) - 10;
-            xCorrected = xCheckOverlap(xPosition);
-            yCorrected = yCheckOverlap(yPosition);
-            newObject.position.x = xCorrected;
-            newObject.position.y = yCorrected;
+            newObject.position.x = xPosition;
+            newObject.position.y = yPosition;
 
             var scale = (Math.random() * (.25 - .15) + .15);
             newObject.scale.x = scale;
@@ -160,10 +148,8 @@ new THREE.OBJLoader()
 
             var xPosition = (Math.random() * 15) - 10;
             var yPosition = (Math.random() * 15) - 10;
-            xCorrected = xCheckOverlap(xPosition);
-            yCorrected = yCheckOverlap(yPosition);
-            newObject.position.x = xCorrected;
-            newObject.position.y = yCorrected;
+            newObject.position.x = xPosition;
+            newObject.position.y = yPosition;
 
             var scale = (Math.random() * (.25 - .15) + .15);
             newObject.scale.x = scale;
@@ -173,26 +159,28 @@ new THREE.OBJLoader()
             scene.add(newObject);
             objects.push(newObject);
         };
+
+
     });
 });
 
-// window.addEventListener('scroll',(event) => {
-//     var currentScroll = window.scrollY;
-//     var currentBottom = bar.getBoundingClientRect().bottom;
-//     var correctedScrollPos = currentScroll + currentBottom;
-//     console.log(correctedScrollPos);
-//     for (var j in objects) {
-//         console.log(objects[j].position.y);
-//         if (objects[j].position.y < correctedScrollPos) {
-//             objects[j].position.y -= .01;
-//             // console.log(objects[j].position.y);
-//         };
-//     };
-// });
+checkOverlap(objects);
 
-function getNewRotation() {
+var xRotationMatrix = [];
+var yRotationMatrix = [];
 
-}
+// Fills values for ratation matrices
+function fillRotationMatrices() {
+    xRotationMatrix = [];
+    yRotationMatrix = [];
+    for (let k = 0; k < 102; k++) {
+        xRotationMatrix[k] = (Math.random() / 100)
+        yRotationMatrix[k] = (Math.random() / 100)
+    };
+};
+
+// Original values for ratation matrices
+fillRotationMatrices()
 
 // Refreshes the scene
 function animate() {
@@ -200,27 +188,14 @@ function animate() {
 
     // Controls the rotation of the objects
     var i = 0;
-    while (i < (objects.length / 2))  {
+    while (i < (objects.length))  {
         var object = objects[i];
         if (timer > 100) {
-            xRotation1 = (Math.random() / 100);
-            yRotation1 = (Math.random() / 100);
+            fillRotationMatrices();
         };
-        object.rotation.x += xRotation1;
-        object.rotation.y += yRotation1;
+        object.rotation.x += xRotationMatrix[i];
+        object.rotation.y += yRotationMatrix[i];
         i++;
-    };
-
-    i = objects.length - 1;
-    while (i > (objects.length / 2))  {
-        if (timer > 100) {
-            xRotation2 = (Math.random() / -100);
-            yRotation2 = (Math.random() / -100);
-        };
-        var object = objects[i];
-        object.rotation.x += xRotation2;
-        object.rotation.y += yRotation2;
-        i--;
     };
 
     if (timer > 100) {
@@ -231,5 +206,39 @@ function animate() {
 
     renderer.render(scene, camera);
 };
+
+// Math behind speeding up rotation on scroll
+function multiply(arr, n) {
+    for (var i = 0; i < arr.length; i++) {
+        arr[i] *= n;
+    }
+}
+
+// Speeds up rotation on scroll
+window.addEventListener('scroll', function() {
+    var xMatrixSum = xRotationMatrix.reduce(function(a, b){
+        return a + b;
+    });
+    var xAdverageMatricSum = (xMatrixSum / xRotationMatrix.length)
+
+    var yMatrixSum = yRotationMatrix.reduce(function(a, b){
+        return a + b;
+    });
+    var yAdverageMatricSum = (yMatrixSum / yRotationMatrix.length)
+
+    if(xAdverageMatricSum < .1) {
+        multiply(xRotationMatrix, 1.025);
+    }
+    if(yAdverageMatricSum < .1) {
+        multiply(yRotationMatrix, 1.025);
+    }
+
+    if(scrollTimer !== null) {
+        clearTimeout(scrollTimer);        
+    }
+    scrollTimer = setTimeout(function() {
+        fillRotationMatrices();
+    }, 200);
+}, false);
 
 animate();

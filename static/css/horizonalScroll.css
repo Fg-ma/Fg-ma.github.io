@@ -9,6 +9,7 @@
     float: left;
     width: 6%;
     height: 350px;
+    box-shadow: 2px 2px 2px 2px rgba(10, 10, 10, 0.8);
 }
 
 #forwardHorizontalScrollButton {
@@ -17,6 +18,7 @@
     float: left;
     width: 6%;
     height: 350px;
+    box-shadow: 2px 2px 2px 2px rgba(10, 10, 10, 0.8);
 }
 
 .backwardHorizontalScroll {
@@ -53,6 +55,7 @@
 
 #featuredButtons {
     float: left;
+    box-shadow: 2px 2px 2px 2px rgba(10, 10, 10, 0.8);
 }
 
 div.scrollmenu {

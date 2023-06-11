@@ -11,7 +11,4 @@ let
     canvas3D = document.getElementById('canvas3d');
     scrollAmount = 0;
     timer = 0;
-    xRotation1 = 0.0075;
-    yRotation1 = 0.0075;
-    xRotation2 = -0.0075;
-    yRotation2 = -0.0075;
+    scrollTimer = null;

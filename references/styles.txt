@@ -1,0 +1,2 @@
+Body Color: #011526
+Detail Color: #8094A6
