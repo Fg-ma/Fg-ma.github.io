@@ -2,7 +2,7 @@
 
 #navbar {
   background-color: #f1f1f1;
-  padding: 60px 10px;
+  padding: 30px 10px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -23,12 +23,12 @@
 }
 
 #navbar #nexusTitle {
-  font-size: 450%;
+  font-size: 300%;
   font-weight: bold;
   transition: 0.4s;
 }
 
-#navbar a:hover {
+#navbar-right a:hover {
   background-color: #ddd;
   color: black;
 }

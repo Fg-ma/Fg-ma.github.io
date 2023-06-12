@@ -1,22 +1,23 @@
 #horizontalScroll {
-    padding-top: 130px;
+    padding-top: 140px;
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
 }
 
 #backwardHorizontalScrollButton {
-    margin-top: 5%;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 15px;
+    margin-left: 45px;
     float: left;
-    width: 6%;
+    width: 60px;
     height: 350px;
     box-shadow: 2px 2px 2px 2px rgba(10, 10, 10, 0.8);
 }
 
 #forwardHorizontalScrollButton {
-    margin-top: 5%;
-    margin-left: 2%;
+    margin-left: 15px;
     float: left;
-    width: 6%;
+    width: 60px;
     height: 350px;
     box-shadow: 2px 2px 2px 2px rgba(10, 10, 10, 0.8);
 }
@@ -24,13 +25,11 @@
 .backwardHorizontalScroll {
     border: none;
     background-color: #F27405;
-    padding: 12px 48px 12px 24px;
     border-radius: 4px;
     color: #fff;
     background-image: url("/static/sourceImages/leftArrow.png");
     background-repeat: no-repeat;
     background-position: right 50% center;
-
 }
 
 .backwardHorizontalScroll:hover {
@@ -40,13 +39,11 @@
 .fowardHorizontalScroll {
     border: none;
     background-color: #F27405;
-    padding: 12px 48px 12px 24px;
     border-radius: 4px;
     color: #fff;
     background-image: url("/static/sourceImages/rightArrow.png");
     background-repeat: no-repeat;
     background-position: right 50% center;
-  
 }
 
 .fowardHorizontalScroll:hover {
@@ -59,7 +56,7 @@
 }
 
 div.scrollmenu {
-    margin-top: 5%;
+    float: left;
     background-color: rgb(0, 0, 0);
     overflow: auto;
     white-space: nowrap;
@@ -87,7 +84,7 @@ div.scrollmenu a:hover {
 }
   
 #firstFeaturedButton {
-    margin-left: 1%;
+    margin-left: 1.25%;
     background-image: url('\\static\\sourceImages\\neuralNetwork.png');
     background-size: 100% 250px;
 }
