@@ -10,6 +10,12 @@ div.collapsibleTitles {
 #programingReboot {
     padding-top: 60px;
 }
+
+.stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
   
 .collapsibleTitlesContent{
     text-align: center;
@@ -20,20 +26,23 @@ div.collapsibleTitles {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 850px;
     height: 35px;
-    margin-left: 5%;
     background-color: #8094A6;
     font-size: 25px;
     color: #141414;
     border-radius: 5px;
+    background-image: ('reboot\rReference\dots.png');
+    background-size: cover;
 }
-  
+
 .content {
     display: none;
+    align-items: center;
+    justify-content: center;
     background-color: #F5F5F5;
-    width: 90%;
-    margin-left: 5%;
+    width: 850px;
+    margin: auto;
     border-radius: 2px;
 }
 
