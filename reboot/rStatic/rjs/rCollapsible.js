@@ -43,7 +43,7 @@ coll[3].addEventListener("click", function() {
 
 coll[4].addEventListener("click", function() {
   this.classList.toggle("active");
-  var content = document.getElementById('launchers');
+  var content = document.getElementById('gameDevelopement');
   if (content.style.display === "block") {
     content.style.display = "none";
   } else {
@@ -52,6 +52,16 @@ coll[4].addEventListener("click", function() {
 });
 
 coll[5].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var content = document.getElementById('launchers');
+  if (content.style.display === "block") {
+    content.style.display = "none";
+  } else {
+    content.style.display = "block";
+  };
+});
+
+coll[6].addEventListener("click", function() {
   this.classList.toggle("active");
   var content = document.getElementById('games');
   if (content.style.display === "block") {

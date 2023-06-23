@@ -3,8 +3,8 @@
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    background-color: #6a55c4;
-    color: #6a55c4;
+    background-color: #460273;
+    color: #460273;
     animation: dot-elastic 1s infinite linear;
 }
 
@@ -20,8 +20,8 @@
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    background-color: #6a55c4;
-    color: #6a55c4;
+    background-color: #460273;
+    color: #460273;
     animation: dot-elastic-before 1s infinite linear;
 }
 
@@ -30,8 +30,8 @@
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    background-color: #6a55c4;
-    color: #6a55c4;
+    background-color: #460273;
+    color: #460273;
     animation: dot-elastic-after 1s infinite linear;
 }
   
